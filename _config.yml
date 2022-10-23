@@ -1,6 +1,6 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Voip0520
+description: 'Prueba de pagina personal'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: '/jekyll-uno'
 # google_analytics: 'UA-XXXXXX-X'
@@ -8,12 +8,12 @@ baseurl: '/jekyll-uno'
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Oswaldo Quishpe'
+  email: balin_2013@outlook.com
+#  twitter_username:
+#  facebook_username:
+  github_username: voip0520
+#  linkedin_username:
 
 defaults:
   -
