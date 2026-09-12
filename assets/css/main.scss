@@ -1,0 +1,54 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}"; // skin base
+@import "minimal-mistakes"; // tema
+
+// ---- OVERRIDE: verde neon sobre negro -------------------------------
+$neon: #39ff14;          // verde neon principal
+$neon-dim: #2fd80f;      // verde un poco mas apagado para hover
+$bg: #0a0a0a;            // negro casi puro
+
+body {
+  background-color: $bg;
+}
+
+a {
+  color: $neon;
+  &:hover { color: #ffffff; }
+}
+
+// Titulos de las entradas y enlaces destacados
+.page__title,
+.archive__item-title a,
+.page__content h1,
+.page__content h2 a,
+.page__meta a,
+.masthead__menu-item a:hover,
+.site-title {
+  color: $neon !important;
+}
+
+// Cabecera / barra de navegacion
+.masthead {
+  border-bottom: 1px solid rgba(57, 255, 20, 0.25);
+}
+
+// Breadcrumbs "Home / ..."
+.breadcrumbs a { color: $neon; }
+
+// Boton de busqueda y detalles
+.search__toggle,
+.greedy-nav .visible-links a:before { background: $neon; }
+
+// Bloques de codigo: borde verde tenue para el look terminal
+div.highlighter-rouge,
+figure.highlight {
+  border: 1px solid rgba(57, 255, 20, 0.20);
+}
+
+// Etiquetas / botones
+.btn--primary { background-color: $neon-dim; border-color: $neon-dim; }
