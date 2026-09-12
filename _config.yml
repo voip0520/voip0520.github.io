@@ -3,7 +3,7 @@
 # =====================================================================
 
 remote_theme             : "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin    : "neon"   # negro con acentos rosa (como Hack Notes)
+minimal_mistakes_skin    : "dark"   # negro con acentos rosa (como Hack Notes)
                                     # otras: air, aqua, contrast, dark, dirt, mint, plum, sunrise
 locale                   : "es-ES"
 
