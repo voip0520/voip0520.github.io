@@ -1,0 +1,102 @@
+# =====================================================================
+#  CONFIGURACIÓN PRINCIPAL
+# =====================================================================
+
+remote_theme             : "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin    : "neon"   # negro con acentos rosa (como Hack Notes)
+                                    # otras: air, aqua, contrast, dark, dirt, mint, plum, sunrise
+locale                   : "es-ES"
+
+title                    : "Hacking 0520"
+title_separator          : "-"
+name                     : "Oswaldo Quishpe"
+description              : "Notas de redes, telefonía IP, servidores Linux y seguridad ofensiva."
+url                      : "https://voip0520.github.io"
+baseurl                  : ""                      # ver README si NO renombras el repo
+repository               : "voip0520/voip0520.github.io"
+
+breadcrumbs              : true      # "Home / Artículos por categoría"
+words_per_minute         : 200       # el "7 minute read"
+search                   : true
+
+# ---------------------------------------------------------------------
+#  AUTOR  ->  barra lateral (foto, nombre, bio, enlaces)
+# ---------------------------------------------------------------------
+author:
+  name        : "Oswaldo Quishpe"
+  avatar      : "https://avatars.githubusercontent.com/u/115903079?v=4"
+  bio         : "Administrador de Redes / Telefonía IP / Servidores Linux"
+  location    : "Ecuador"
+  links:
+    - label: "LinkedIn"
+      icon : "fab fa-fw fa-linkedin"
+      url  : "https://www.linkedin.com/in/oswaldo-quishpe-092366294/"
+    - label: "GitHub"
+      icon : "fab fa-fw fa-github"
+      url  : "https://github.com/voip0520"
+    - label: "Certificación INE"
+      icon : "fas fa-fw fa-certificate"
+      url  : "https://certs.ine.com/f208a3e7-0d1e-4991-85d8-cf93109abc89"
+    # - label: "Email"          # descomenta y pon tu correo si quieres mostrarlo
+    #   icon : "fas fa-fw fa-envelope-square"
+    #   url  : "mailto:tucorreo@ejemplo.com"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon : "fab fa-fw fa-linkedin"
+      url  : "https://www.linkedin.com/in/oswaldo-quishpe-092366294/"
+    - label: "GitHub"
+      icon : "fab fa-fw fa-github"
+      url  : "https://github.com/voip0520"
+
+# ---------------------------------------------------------------------
+#  BUILD
+# ---------------------------------------------------------------------
+include      : ["_pages"]
+exclude      : ["Gemfile", "Gemfile.lock", "README.md", "vendor"]
+markdown     : kramdown
+permalink    : /:categories/:title/
+timezone     : America/Guayaquil
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+
+paginate      : 5
+paginate_path : /page:num/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# ---------------------------------------------------------------------
+#  VALORES POR DEFECTO
+# ---------------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "Contenido"
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
