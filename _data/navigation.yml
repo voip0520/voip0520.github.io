@@ -1,4 +1,6 @@
 main:
+ - title: "Acerca de"
+    url: /about/
   - title: "Home"
     url: /
   - title: "Artículos"
@@ -9,5 +11,4 @@ main:
     url: /tags/
   - title: "Certificaciones"
     url: /certificaciones/
-  - title: "Acerca de"
-    url: /about/
+ 
