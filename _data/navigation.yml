@@ -12,4 +12,6 @@ main:
     url: /tags/
   - title: "Certificaciones"
     url: /certificaciones/
+  - title: "Notas eJPT"
+    url: /notas-ejpt/
  
