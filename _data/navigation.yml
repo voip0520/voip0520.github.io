@@ -1,8 +1,9 @@
 main:
- - title: "Acerca de"
-    url: /about/
+
   - title: "Home"
     url: /
+  - title: "Acerca de"
+    url: /about/
   - title: "Artículos"
     url: /year-archive/
   - title: "Categorías"
