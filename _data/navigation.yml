@@ -10,6 +10,8 @@ main:
     url: /categories/
   - title: "Etiquetas"
     url: /tags/
+  - title: "Máquinas"
+    url: /maquinas/
   - title: "Certificaciones"
     url: /certificaciones/
   - title: "Notas eJPT"
