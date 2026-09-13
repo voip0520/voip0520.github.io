@@ -25,8 +25,7 @@ search                   : true
 author:
   name        : "Oswaldo Quishpe"
   avatar      : "https://avatars.githubusercontent.com/u/115903079?v=4"
-  bio         : eJPT | CEHPC | EHCA |
-                  <br>Administrador de Redes | Telefonía IP | Servidores Linux<br>
+  bio         : "eJPT<br>CEHPC<br>EHCA<br>Administrador de Redes / Telefonía IP / Servidores Linux"
   location    : "Ecuador"
   links:
     - label: "LinkedIn"
