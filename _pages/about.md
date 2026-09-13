@@ -33,5 +33,5 @@ que voy resolviendo en el día a día.
 
 ## Contacto
 
-- LinkedIn: [oswaldo-quishpe](https://www.linkedin.com/in/oswaldo-quishpe-092366294/)
+- LinkedIn: [oswaldo-quishpe](https://www.linkedin.com/in/oswaldo-quishpe-778469241/)
 - GitHub: [voip0520](https://github.com/voip0520)
