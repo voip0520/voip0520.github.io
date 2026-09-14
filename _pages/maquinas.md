@@ -1,26 +1,73 @@
 ---
-title: "Máquinas"
+title: "Máquinas y CTF"
 permalink: /maquinas/
 author_profile: true
 toc: true
-toc_label: "Sistemas"
+toc_label: "Plataformas"
 ---
 
-Máquinas vulneradas en distintas plataformas, organizadas por sistema operativo. Cada una enlaza a su writeup completo (reconocimiento, explotación, escalada de privilegios y banderas).
+Recopilación de máquinas vulneradas y retos resueltos, agrupados por plataforma. Cada entrada enlaza a su writeup completo.
 
-## Windows
+## Hacking
 
-| Máquina | Plataforma | Vulnerabilidad principal | Writeup |
+| Máquina | SO | Vector | Writeup |
 |---|---|---|---|
-| Ethernal | Hacking | EternalBlue — SMB MS17-010 | [Ver writeup](/writeups/ethernal/) |
-| Steel Mountain | TryHackMe | Rejetto HFS — CVE-2014-6287 | [Ver writeup](/writeups/steel-mountain/) |
+| Ethernal | Windows | EternalBlue (MS17-010) | [Ver](/writeups/ethernal/) |
+| KIO | Linux | Samba trans2open + OpenFuck | [Ver](/writeups/kio/) |
+| Monkey | Linux | Upload PHP + cron a root | [Ver](/writeups/monkey/) |
+| Navigator | Linux | Navigate CMS RCE + SUID php | [Ver](/writeups/navigator/) |
+| Faro | Linux | Auditoría de nodo de borde | [Ver](/writeups/faro/) |
+| Media Upload System | Linux | File upload + privesc | [Ver](/writeups/media-upload-system/) |
+| Vuln-Lab (Nebula Forge) | Linux | SQLi + RCE + LFI + sudo Vim | [Ver](/writeups/vuln-lab-nebula/) |
 
-## Linux
+## TryHackMe
 
-| Máquina | Plataforma | Vulnerabilidad principal | Writeup |
+| Máquina | SO | Vector | Writeup |
 |---|---|---|---|
-| KIO | Hacking | Samba trans2open + OpenFuck | [Ver writeup](/writeups/kio/) |
-| Monkey | Hacking | Upload PHP + cron a root | [Ver writeup](/writeups/monkey/) |
-| Navigator | Hacking | Navigate CMS RCE + SUID php | [Ver writeup](/writeups/navigator/) |
-| Game Zone | TryHackMe | SQLi + Webmin | [Ver writeup](/writeups/game-zone/) |
-| Mr Robot | TryHackMe | WordPress + SUID nmap | [Ver writeup](/writeups/mr-robot/) |
+| Steel Mountain | Windows | Rejetto HFS (CVE-2014-6287) | [Ver](/writeups/steel-mountain/) |
+| Game Zone | Linux | SQLi + Webmin | [Ver](/writeups/game-zone/) |
+| Mr Robot | Linux | WordPress + SUID nmap | [Ver](/writeups/mr-robot/) |
+
+## HackTheBox
+
+| Máquina | SO | Vector | Writeup |
+|---|---|---|---|
+| CAP | Linux | Captura FTP + SUID Python | [Ver](/writeups/htb-cap/) |
+
+## TheHackersLabs
+
+| Máquina | Categoría / Vector | Writeup |
+|---|---|---|
+| TheVoucher | Pentesting Linux | [Ver](/writeups/thevoucher/) |
+| Dragon | Escalada sudo + Vim | [Ver](/writeups/dragon/) |
+
+## ATENEA (CCN-CERT)
+
+| Reto | Categoría | Writeup |
+|---|---|---|
+| StarGateSG | Análisis de tráfico | [Ver](/writeups/stargatesg/) |
+| Smiley | Análisis de tráfico | [Ver](/writeups/smiley/) |
+
+## hackrocks
+
+| Reto | Categoría | Writeup |
+|---|---|---|
+| Kraia | Web (bypass cookie) | [Ver](/writeups/kraia/) |
+| Wanna Some Cookies | Web (manejo de sesión) | [Ver](/writeups/wanna-some-cookies/) |
+
+## Otros CTF
+
+| Reto | Categoría | Writeup |
+|---|---|---|
+| Lexa | Forense USB | [Ver](/writeups/lexa/) |
+| Lynx RedFoxProtocol | Tráfico SCADA | [Ver](/writeups/lynx-redfoxprotocol/) |
+| ByteBlueWolf | OSINT | [Ver](/writeups/byteblue-osint/) |
+| Koi Stealer | Forense de tráfico | [Ver](/writeups/koi-stealer/) |
+| Retos HTTP PCAP | Análisis de tráfico | [Ver](/writeups/retos-http-pcap/) |
+
+## Guías
+
+| Documento | Writeup |
+|---|---|
+| Guía de descifrado y decodificación | [Ver](/writeups/guia-descifrado/) |
+| Wazuh - Manual avanzado nivel SOC | [Ver](/writeups/wazuh-soc/) |
