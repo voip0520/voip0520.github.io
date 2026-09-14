@@ -4,34 +4,28 @@ permalink: /certificaciones/
 author_profile: true
 toc: true
 toc_label: "Certificaciones"
+classes: wide
 ---
 
-Listado de mis certificaciones con su credencial de respaldo. Para ver o
-descargar cada certificado, pulsa "Ver certificado".
+Mis certificaciones en ciberseguridad ofensiva, con la credencial que las respalda. Pulsa "Ver certificado" para abrir el documento.
 
 ## eJPT — eLearnSecurity Junior Penetration Tester
 **Entidad:** INE / eLearnSecurity
 
+Certificación práctica de pentesting que valida la capacidad de realizar tests de intrusión: enumeración, explotación de vulnerabilidades web y de red, y pivoting.
+
 [Ver certificado](/assets/certs/ejpt.pdf){: .btn .btn--primary}
 
-## CEHPC
-**Entidad:** _(completar)_
+## CEHPC — Certified Ethical Hacking Professional Certificate
+**Entidad:** CertiProf
+
+Certificación de hacking ético que acredita el conocimiento de metodologías de auditoría, fases de un test de intrusión y técnicas de explotación éticas.
 
 [Ver certificado](/assets/certs/cehpc.pdf){: .btn .btn--primary}
 
 ## EHCA — Ethical Hacking Certified Associate
-**Entidad:** Ateitis Corp
+**Entidad:** CertJoin
+
+Certificación que valida los fundamentos del hacking ético: reconocimiento, análisis de vulnerabilidades y técnicas de explotación básicas.
 
 [Ver certificado](/assets/certs/ehca.pdf){: .btn .btn--primary}
-
-<!--
-Para añadir otra certificación, copia este bloque y cambia los datos:
-
-## SIGLA — Nombre completo
-**Entidad:** Quien la emite
-
-[Ver certificado](/assets/certs/NOMBRE-ARCHIVO.pdf){: .btn .btn--primary}
-
-Sube el PDF o imagen a la carpeta  assets/certs/  con ese mismo nombre.
-Usa nombres sin espacios ni tildes (ej: oscp-offsec.pdf).
--->
