@@ -1,5 +1,6 @@
 ---
 title: "Trust But Verify"
+permalink: /writeups/trust-but-verify/
 excerpt: "Writeup del reto 'Trust But Verify' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
 date: 2026-09-11
 categories:

@@ -1,5 +1,6 @@
 ---
 title: "Perceptron Train Classic 2 Alpha"
+permalink: /writeups/perceptron-train-classic-2-alpha/
 excerpt: "Writeup del reto 'Perceptron Train Classic 2 Alpha' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
 date: 2026-09-11
 categories:

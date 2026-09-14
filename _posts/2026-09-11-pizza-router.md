@@ -1,5 +1,6 @@
 ---
 title: "Pizza Router"
+permalink: /writeups/pizza-router/
 excerpt: "Writeup del reto 'Pizza Router' (picoCTF 2026, categoria Binary Exploitation, dificultad Hard, por Palash Oswal)."
 date: 2026-09-11
 categories:

@@ -1,12 +1,13 @@
 ---
-title: "Máquinas y CTF"
+title: "Máquinas"
 permalink: /maquinas/
 author_profile: true
 toc: true
 toc_label: "Plataformas"
+classes: wide
 ---
 
-Recopilación de máquinas vulneradas y retos resueltos, agrupados por plataforma. Cada entrada enlaza a su writeup completo.
+Máquinas vulneradas mediante pentesting, agrupadas por plataforma. Cada entrada enlaza a su writeup completo: reconocimiento, explotación, escalada de privilegios y banderas.
 
 ## Hacking
 
@@ -40,34 +41,4 @@ Recopilación de máquinas vulneradas y retos resueltos, agrupados por plataform
 |---|---|---|
 | TheVoucher | Pentesting Linux | [Ver](/writeups/thevoucher/) |
 | Dragon | Escalada sudo + Vim | [Ver](/writeups/dragon/) |
-
-## ATENEA (CCN-CERT)
-
-| Reto | Categoría | Writeup |
-|---|---|---|
-| StarGateSG | Análisis de tráfico | [Ver](/writeups/stargatesg/) |
-| Smiley | Análisis de tráfico | [Ver](/writeups/smiley/) |
-
-## hackrocks
-
-| Reto | Categoría | Writeup |
-|---|---|---|
-| Kraia | Web (bypass cookie) | [Ver](/writeups/kraia/) |
-| Wanna Some Cookies | Web (manejo de sesión) | [Ver](/writeups/wanna-some-cookies/) |
-
-## Otros CTF
-
-| Reto | Categoría | Writeup |
-|---|---|---|
-| Lexa | Forense USB | [Ver](/writeups/lexa/) |
-| Lynx RedFoxProtocol | Tráfico SCADA | [Ver](/writeups/lynx-redfoxprotocol/) |
-| ByteBlueWolf | OSINT | [Ver](/writeups/byteblue-osint/) |
-| Koi Stealer | Forense de tráfico | [Ver](/writeups/koi-stealer/) |
-| Retos HTTP PCAP | Análisis de tráfico | [Ver](/writeups/retos-http-pcap/) |
-
-## Guías
-
-| Documento | Writeup |
-|---|---|
-| Guía de descifrado y decodificación | [Ver](/writeups/guia-descifrado/) |
-| Wazuh - Manual avanzado nivel SOC | [Ver](/writeups/wazuh-soc/) |
+| El Topo DNS | DFIR / Linux | [Ver](/writeups/el-topo-dns/) |

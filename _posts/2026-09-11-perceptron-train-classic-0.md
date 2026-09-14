@@ -1,5 +1,6 @@
 ---
 title: "Perceptron Train Classic 0"
+permalink: /writeups/perceptron-train-classic-0/
 excerpt: "Writeup del reto 'Perceptron Train Classic 0' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
 date: 2026-09-11
 categories:

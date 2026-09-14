@@ -1,5 +1,6 @@
 ---
 title: "Caos en el monton"
+permalink: /writeups/caos-en-el-monton/
 excerpt: "Writeup del reto 'Caos en el monton' (picoCTF 2026, categoria Explotacion binaria, dificultad Duro, por Yahaya Meddy)."
 date: 2026-09-11
 categories:

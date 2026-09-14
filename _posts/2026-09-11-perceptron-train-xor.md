@@ -1,5 +1,6 @@
 ---
 title: "Perceptron Train XOR"
+permalink: /writeups/perceptron-train-xor/
 excerpt: "Writeup del reto 'Perceptron Train XOR' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
 date: 2026-09-11
 categories:

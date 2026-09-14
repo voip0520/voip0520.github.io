@@ -1,54 +1,98 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Main stylesheet
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}"; // skin base
-@import "minimal-mistakes"; // tema
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}";
+@import "minimal-mistakes";
 
-// ---- OVERRIDE: verde neon sobre negro -------------------------------
-$neon: #39ff14;          // verde neon principal
-$neon-dim: #2fd80f;      // verde un poco mas apagado para hover
-$bg: #0a0a0a;            // negro casi puro
+// ===== Paleta =====
+$neon:     #39ff14;
+$neon-dim: #2bd60f;
+$bg:       #070707;
+$card:     #0e0e0e;
 
+// ===== Fondo temático fijo =====
 body {
   background-color: $bg;
+  background-image: url("/assets/images/bg.svg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
-a {
-  color: $neon;
-  &:hover { color: #ffffff; }
-}
+// ===== Enlaces y títulos =====
+a { color: $neon; &:hover { color: #ffffff; } }
 
-// Titulos de las entradas y enlaces destacados
 .page__title,
 .archive__item-title a,
 .page__content h1,
+.page__content h2,
 .page__content h2 a,
-.page__meta a,
-.masthead__menu-item a:hover,
-.site-title {
-  color: $neon !important;
+.site-title,
+.breadcrumbs a { color: $neon !important; }
+
+.page__content h2,
+.page__content h3 {
+  border-bottom: 1px solid rgba(57,255,20,.18);
+  padding-bottom: .25rem;
 }
 
-// Cabecera / barra de navegacion
+// ===== Cabecera / navbar translúcida =====
 .masthead {
-  border-bottom: 1px solid rgba(57, 255, 20, 0.25);
+  background: rgba(0,0,0,.55);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(57,255,20,.25);
 }
 
-// Breadcrumbs "Home / ..."
-.breadcrumbs a { color: $neon; }
+// ===== Barra lateral de autor =====
+.sidebar .author__avatar img {
+  border: 2px solid $neon;
+  box-shadow: 0 0 14px rgba(57,255,20,.35);
+}
+.author__name { color: $neon; }
 
-// Boton de busqueda y detalles
-.search__toggle,
-.greedy-nav .visible-links a:before { background: $neon; }
-
-// Bloques de codigo: borde verde tenue para el look terminal
-div.highlighter-rouge,
-figure.highlight {
-  border: 1px solid rgba(57, 255, 20, 0.20);
+// ===== Tarjetas en listados de archivo =====
+.archive__item {
+  background: rgba(14,14,14,.7);
+  border: 1px solid rgba(57,255,20,.12);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  transition: border-color .2s, transform .2s;
+}
+.archive__item:hover {
+  border-color: rgba(57,255,20,.5);
+  transform: translateY(-2px);
 }
 
-// Etiquetas / botones
+// ===== Código estilo terminal =====
+div.highlighter-rouge, figure.highlight, pre.code {
+  border: 1px solid rgba(57,255,20,.22);
+  border-radius: 6px;
+}
+code { color: #c8facc; }
+
+// ===== Tablas =====
+table { border-collapse: collapse; }
+th { background: rgba(57,255,20,.10); color: $neon; }
+td, th { border: 1px solid rgba(57,255,20,.18); padding: 6px 10px; }
+
+// ===== Botones =====
 .btn--primary { background-color: $neon-dim; border-color: $neon-dim; }
+.btn--primary:hover { background-color: $neon; }
+
+// ===== Blockquote (ficha de máquina) =====
+blockquote {
+  border-left: 3px solid $neon;
+  background: rgba(57,255,20,.05);
+  border-radius: 0 6px 6px 0;
+}
+
+// ===== Contenido con fondo semitransparente para legibilidad =====
+.page, .archive {
+  background: rgba(5,5,5,.55);
+  border-radius: 10px;
+  padding: 1.2rem 1.6rem;
+}

@@ -1,5 +1,6 @@
 ---
 title: "Perceptron Train XNOR"
+permalink: /writeups/perceptron-train-xnor/
 excerpt: "Writeup del reto 'Perceptron Train XNOR' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
 date: 2026-09-11
 categories:

@@ -1,19 +1,13 @@
 main:
-
   - title: "Home"
     url: /
-  - title: "Acerca de"
-    url: /about/
-  - title: "Artículos"
-    url: /year-archive/
-  - title: "Categorías"
-    url: /categories/
-  - title: "Etiquetas"
-    url: /tags/
   - title: "Máquinas"
     url: /maquinas/
+  - title: "CTF"
+    url: /ctf/
   - title: "Certificaciones"
     url: /certificaciones/
   - title: "Notas eJPT"
     url: /notas-ejpt/
- 
+  - title: "Acerca de"
+    url: /about/

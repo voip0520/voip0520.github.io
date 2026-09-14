@@ -1,5 +1,6 @@
 ---
 title: "Perceptron Play Naught"
+permalink: /writeups/perceptron-play-naught/
 excerpt: "Writeup del reto 'Perceptron Play Naught' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
 date: 2026-09-11
 categories:

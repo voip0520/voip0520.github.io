@@ -1,5 +1,6 @@
 ---
 title: "Reingreso"
+permalink: /writeups/reingreso/
 excerpt: "Writeup del reto 'Reingreso' (picoCTF 2026, categoria Blockchain, dificultad Duro, por OB)."
 date: 2026-09-11
 categories:
