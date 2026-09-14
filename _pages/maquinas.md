@@ -23,3 +23,4 @@ Máquinas vulneradas en distintas plataformas, organizadas por sistema operativo
 | Monkey | Hacking | Upload PHP + cron a root | [Ver writeup](/writeups/monkey/) |
 | Navigator | Hacking | Navigate CMS RCE + SUID php | [Ver writeup](/writeups/navigator/) |
 | Game Zone | TryHackMe | SQLi + Webmin | [Ver writeup](/writeups/game-zone/) |
+| Mr Robot | TryHackMe | WordPress + SUID nmap | [Ver writeup](/writeups/mr-robot/) |
