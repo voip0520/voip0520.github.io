@@ -24,7 +24,7 @@ search                   : true
 # ---------------------------------------------------------------------
 author:
   name        : "Oswaldo Quishpe"
-  avatar      : "https://avatars.githubusercontent.com/u/115903079?v=4"
+  avatar      : "/assets/images/ejpt.png"
   bio         : "eJPT<br>CEHPC<br>EHCA<br>Administrador de Redes / Telefonía IP / Servidores Linux"
   location    : "Ecuador"
   links:
@@ -67,7 +67,7 @@ plugins:
   - jekyll-include-cache
   - jemoji
 
-paginate      : 5
+paginate      : 2
 paginate_path : /page:num/
 
 category_archive:
