@@ -19,6 +19,6 @@ Capacitación práctica de pentesting que valida la capacidad de realizar tests 
 ## Introduction to Networks
 **Entidad:** Cisco Networking Academy
 
-Capacitación práctica de pentesting que valida la capacidad de realizar tests con kali linux
+Capacitación que enseña los fundamentos de las redes de computadoras
 
 [Ver certificado](/assets/caps/CCNAv7.pdf){: .btn .btn--primary}
