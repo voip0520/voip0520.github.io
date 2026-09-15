@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Acerca de"
+    url: /about/
   - title: "Máquinas"
     url: /maquinas/
   - title: "CTF"
@@ -11,5 +13,4 @@ main:
     url: /capacitaciones/
   - title: "Notas eJPT"
     url: /notas-ejpt/
-  - title: "Acerca de"
-    url: /about/
+  
