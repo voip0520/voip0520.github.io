@@ -31,7 +31,7 @@ Certificación que valida los fundamentos del hacking ético: reconocimiento, an
 [Ver certificado](/assets/certs/ehca.pdf){: .btn .btn--primary}
 
 ## CJWAPT — CERTIFIED JUNIOR WEB APPLICATION PENETRATION TESTER
-**Entidad:** CertJoin
+**Entidad:** Sturtle Security Pvt. Ltd.
 
 Certificación que valida los fundamentos del hacking ético: reconocimiento, análisis de vulnerabilidades y técnicas de explotación básicas.
 
