@@ -22,3 +22,17 @@ Capacitación práctica de pentesting que valida la capacidad de realizar tests 
 Capacitación que enseña los fundamentos de las redes de computadoras
 
 [Ver certificado](/assets/caps/CCNAv7.pdf){: .btn .btn--primary}
+
+## Enterprise Networking, Security, and Automation
+**Entidad:** Cisco Networking Academy
+
+Capacitación enfocado en el diseño, administración y seguridad de redes empresariales
+
+[Ver certificado](/assets/caps/CCNA1_V7.pdf){: .btn .btn--primary}
+
+## Switching, Routing, and Wireless Essentials
+**Entidad:** Cisco Networking Academy
+
+Capacitación enfocado en el diseño, administración y seguridad de redes empresariales
+
+[Ver certificado](/assets/caps/CCNA2v7.pdf){: .btn .btn--primary}
