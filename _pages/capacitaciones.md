@@ -33,6 +33,6 @@ Capacitación enfocado en el diseño, administración y seguridad de redes empre
 ## Switching, Routing, and Wireless Essentials
 **Entidad:** Cisco Networking Academy
 
-Capacitación enfocado en el diseño, administración y seguridad de redes empresariales
+Capacitación que enseña los fundamentos de conmutación, enrutamiento y redes inalámbricas
 
 [Ver certificado](/assets/caps/CCNA2v7.pdf){: .btn .btn--primary}
