@@ -7,7 +7,7 @@ minimal_mistakes_skin    : "dark"   # negro con acentos rosa (como Hack Notes)
                                     # otras: air, aqua, contrast, dark, dirt, mint, plum, sunrise
 locale                   : "es-ES"
 
-title                    : "Hacking"
+title                    : ""
 title_separator          : "-"
 name                     : "Oswaldo Quishpe"
 description              : "Notas de redes, telefonía IP, servidores Linux y seguridad ofensiva."
