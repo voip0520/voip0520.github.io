@@ -15,3 +15,10 @@ Mis capacitaciones en ciberseguridad ofensiva, con la credencial que las respald
 Capacitación práctica de pentesting que valida la capacidad de realizar tests con kali linux
 
 [Ver certificado](/assets/caps/kali.pdf){: .btn .btn--primary}
+
+## Introduction to Networks
+**Entidad:** Cisco Networking Academy
+
+Capacitación práctica de pentesting que valida la capacidad de realizar tests con kali linux
+
+[Ver certificado](/assets/caps/CCNAv7.pdf){: .btn .btn--primary}
