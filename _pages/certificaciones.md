@@ -29,3 +29,11 @@ Certificación de hacking ético que acredita el conocimiento de metodologías d
 Certificación que valida los fundamentos del hacking ético: reconocimiento, análisis de vulnerabilidades y técnicas de explotación básicas.
 
 [Ver certificado](/assets/certs/ehca.pdf){: .btn .btn--primary}
+
+## CJWAPT — CERTIFIED JUNIOR WEB APPLICATION PENETRATION TESTER
+**Entidad:** CertJoin
+
+Certificación que valida los fundamentos del hacking ético: reconocimiento, análisis de vulnerabilidades y técnicas de explotación básicas.
+
+[Ver certificado](/assets/certs/CJWAPT.pdf){: .btn .btn--primary}
+
