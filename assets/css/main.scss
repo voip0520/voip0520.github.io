@@ -691,3 +691,140 @@ blockquote {
     font-size: .65rem;
   }
 }
+
+// ============================================================
+// IDENTIDAD VISUAL VERDE NEÓN
+// Botones + búsqueda + menú hamburguesa
+// ============================================================
+
+// ----- Botón principal "Ver proyectos" -----
+
+.btn--primary,
+.cyber-actions .btn--primary {
+  background: #39ff14 !important;
+  border: 1px solid #39ff14 !important;
+  color: #050505 !important;
+
+  font-weight: 700;
+
+  box-shadow:
+    0 0 8px rgba(57, 255, 20, .15);
+
+  transition:
+    background-color .2s ease,
+    color .2s ease,
+    box-shadow .2s ease,
+    transform .2s ease;
+}
+
+.btn--primary:hover,
+.cyber-actions .btn--primary:hover {
+  background: #050505 !important;
+  color: #39ff14 !important;
+
+  border-color: #39ff14 !important;
+
+  box-shadow:
+    0 0 8px rgba(57, 255, 20, .30),
+    0 0 18px rgba(57, 255, 20, .15);
+
+  transform: translateY(-2px);
+}
+
+
+// ----- Botón secundario "Explorar writeups" -----
+
+.cyber-actions .btn:not(.btn--primary) {
+  background: transparent !important;
+
+  color: #39ff14 !important;
+
+  border: 1px solid rgba(57, 255, 20, .55) !important;
+
+  transition:
+    background-color .2s ease,
+    color .2s ease,
+    box-shadow .2s ease,
+    transform .2s ease;
+}
+
+.cyber-actions .btn:not(.btn--primary):hover {
+  background: rgba(57, 255, 20, .08) !important;
+
+  color: #39ff14 !important;
+
+  border-color: #39ff14 !important;
+
+  box-shadow:
+    0 0 12px rgba(57, 255, 20, .15);
+
+  transform: translateY(-2px);
+}
+
+
+// ============================================================
+// ICONO DE BÚSQUEDA
+// ============================================================
+
+.greedy-nav .search__toggle {
+  color: #39ff14 !important;
+}
+
+.greedy-nav .search__toggle:hover {
+  color: #ffffff !important;
+}
+
+
+// El SVG/icono interno también hereda verde
+.search__toggle .icon,
+.search__toggle svg {
+  color: #39ff14 !important;
+  fill: currentColor !important;
+}
+
+
+// ============================================================
+// MENÚ HAMBURGUESA
+// ============================================================
+
+.greedy-nav__toggle {
+  color: #39ff14 !important;
+}
+
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon::before,
+.greedy-nav__toggle .navicon::after {
+  background: #39ff14 !important;
+}
+
+
+// Hover del botón hamburguesa
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon::before,
+.greedy-nav__toggle:hover .navicon::after {
+  background: #ffffff !important;
+}
+
+
+// ============================================================
+// MENÚ DESPLEGABLE
+// ============================================================
+
+.greedy-nav .hidden-links {
+  background: #0b0d0c !important;
+
+  border: 1px solid rgba(57, 255, 20, .25);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, .55);
+}
+
+.greedy-nav .hidden-links a {
+  color: #e6e6e6 !important;
+}
+
+.greedy-nav .hidden-links a:hover {
+  color: #39ff14 !important;
+
+  background: rgba(57, 255, 20, .06);
+}
