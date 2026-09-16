@@ -1055,3 +1055,31 @@ blockquote {
     font-size: .90rem;
   }
 }
+// ============================================================
+// WRITEUPS - ELIMINAR DEFINITIVAMENTE TOC FLOTANTE
+// ============================================================
+
+// Ocultar tabla de contenido automática de Minimal Mistakes
+.toc {
+  display: none !important;
+}
+
+// Por seguridad, ocultar sus contenedores flotantes
+aside.sidebar__right,
+.sidebar__right,
+.page__right-sidebar {
+  display: none !important;
+}
+
+// Recuperar todo el ancho para el artículo
+.page__inner-wrap,
+.page__content {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+// Evitar que Minimal Mistakes reserve espacio para el TOC
+.layout--single .page,
+.layout--writeup .page {
+  padding-right: 0 !important;
+}
