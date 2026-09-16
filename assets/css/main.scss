@@ -298,3 +298,67 @@ blockquote {
 ::-webkit-scrollbar-thumb:hover {
   background: $neon-dim;
 }
+// ======================================================
+// COMPONENTES DEL PORTAFOLIO
+// ======================================================
+.cyber-hero {
+  position: relative; overflow: hidden; padding: 2.2rem; margin-bottom: 2rem;
+  background: linear-gradient(135deg, rgba(9,12,10,.96), rgba(3,3,3,.82));
+  border: 1px solid rgba(57,255,20,.22); border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.3);
+}
+.cyber-hero::after { content:""; position:absolute; width:220px; height:220px; right:-90px; top:-90px; border:1px solid rgba(57,255,20,.14); border-radius:50%; box-shadow:0 0 80px rgba(57,255,20,.08); }
+.cyber-kicker { color:$neon; font-family:monospace; font-size:.78rem; letter-spacing:.16em; margin-bottom:.6rem; }
+.cyber-hero h1 { margin:.1rem 0 .35rem; color:#fff !important; font-size:clamp(2rem,5vw,3.25rem); border:0 !important; }
+.cyber-subtitle { color:$neon-text; font-family:monospace; font-size:1rem; }
+.cyber-actions { display:flex; flex-wrap:wrap; gap:.65rem; margin-top:1.2rem; }
+.cyber-btn-secondary { background:#151817 !important; border:1px solid rgba(57,255,20,.32) !important; color:$neon-text !important; }
+.cyber-btn-secondary:hover { border-color:$neon !important; color:#fff !important; }
+.cyber-section { margin:2.2rem 0; }
+.cyber-section-heading { display:flex; align-items:center; gap:.7rem; margin-bottom:1rem; }
+.cyber-section-heading span { color:$neon; font-family:monospace; font-size:.8rem; border:1px solid rgba(57,255,20,.28); padding:.2rem .45rem; border-radius:4px; }
+.cyber-section-heading h2 { margin:0; border:0 !important; }
+.cyber-grid { display:grid; gap:1rem; }
+.cyber-grid-2 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.cyber-grid-3 { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.cyber-card { background:linear-gradient(145deg,rgba(16,18,17,.92),rgba(8,8,8,.92)); border:1px solid rgba(57,255,20,.12); border-radius:10px; padding:1.15rem; transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease; }
+.cyber-card:hover { transform:translateY(-3px); border-color:rgba(57,255,20,.42); box-shadow:0 10px 28px rgba(0,0,0,.28); }
+.cyber-card h2,.cyber-card h3 { margin-top:.25rem; border:0 !important; color:#f2f2f2 !important; }
+.cyber-card p { color:#c7c7c7; }
+.cyber-icon { color:$neon; font-family:monospace; font-size:1.35rem; }
+.cyber-badge,.tag-pill { display:inline-block; font-family:monospace; font-size:.68rem; letter-spacing:.06em; color:$neon-text; background:rgba(57,255,20,.055); border:1px solid rgba(57,255,20,.2); border-radius:999px; padding:.2rem .48rem; margin:0 .25rem .3rem 0; }
+.skill-groups { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.7rem; }
+.skill-groups>div { background:rgba(12,12,12,.8); border-left:2px solid $neon-text; padding:.85rem 1rem; }
+.skill-groups strong { color:$neon-text; }
+.skill-groups p { margin:.25rem 0 0; color:#c8c8c8; font-family:monospace; font-size:.84rem; }
+.cyber-stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.8rem; }
+.cyber-stats div { text-align:center; background:rgba(10,10,10,.85); border:1px solid rgba(57,255,20,.14); border-radius:9px; padding:1.15rem .5rem; }
+.cyber-stats strong { display:block; color:$neon; font-family:monospace; font-size:1.7rem; }
+.cyber-stats span { color:#bdbdbd; font-size:.78rem; }
+.cyber-center { text-align:center; margin-top:1rem; }
+.latest-heading { margin-top:2.4rem; }
+.page-lead { font-size:1.05rem; color:#d2d2d2; padding:.8rem 1rem; border-left:3px solid $neon-text; background:rgba(57,255,20,.035); }
+.method-flow { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.7rem; margin:1.4rem 0 2rem; }
+.method-flow div { position:relative; background:#0d0f0e; border:1px solid rgba(57,255,20,.15); border-radius:8px; padding:.8rem; min-height:110px; }
+.method-flow b { display:block; color:$neon; font-family:monospace; font-size:.72rem; }
+.method-flow strong { display:block; color:#f1f1f1; margin:.35rem 0; }
+.method-flow span { color:#aaa; font-size:.76rem; }
+.tag-cloud { display:flex; flex-wrap:wrap; gap:.45rem; }
+.tag-cloud span { color:#d9d9d9; background:#111; border:1px solid rgba(57,255,20,.17); border-radius:5px; padding:.35rem .55rem; font-family:monospace; font-size:.8rem; }
+
+// Navegación más compacta cuando hay muchas secciones
+.greedy-nav .visible-links a { font-size:.82rem; padding-left:.55rem; padding-right:.55rem; }
+
+@media (max-width: 900px) {
+  .cyber-grid-3 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .method-flow { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .cyber-stats { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 600px) {
+  body { background-attachment:scroll; }
+  .page,.archive { padding:.85rem; }
+  .cyber-hero { padding:1.25rem; }
+  .cyber-grid-2,.cyber-grid-3,.skill-groups,.method-flow { grid-template-columns:1fr; }
+  .cyber-stats { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .cyber-actions .btn { width:100%; text-align:center; }
+}

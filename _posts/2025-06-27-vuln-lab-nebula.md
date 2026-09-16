@@ -167,3 +167,11 @@ Kali Linux, Nmap, gobuster, nikto, shodan.io, Burp Suite y sqlmap.
 ## 11. Conclusiones y remediación
 
 El compromiso total fue posible por una cadena de fallos: entradas no parametrizadas (SQLi), carga de archivos sin restricción (RCE), inclusión de archivos sin saneamiento (LFI), credenciales reutilizadas y una delegación de `sudo` sobre un editor. Como acciones prioritarias: parametrizar todas las consultas, restringir y validar las cargas, sanear los parámetros de inclusión, rotar las credenciales por defecto y, de forma crítica, retirar Vim (y cualquier editor o intérprete) de las reglas de `sudo`, reforzando con NOEXEC, auditoría y políticas AppArmor/SELinux.
+
+## Mapeo MITRE ATT&CK
+
+- **T1046 — Network Service Scanning:** descubrimiento de servicios del objetivo.
+- **T1190 — Exploit Public-Facing Application:** validación de vulnerabilidades en la aplicación expuesta.
+- **T1059 — Command and Scripting Interpreter:** ejecución controlada de comandos durante el laboratorio.
+
+> Las técnicas ATT&CK resumen el comportamiento observado; no sustituyen la descripción técnica ni el análisis de impacto.

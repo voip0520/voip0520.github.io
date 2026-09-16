@@ -1,6 +1,7 @@
 ---
 title: "Configurar una troncal SIP en Asterisk"
 excerpt: "Registro de troncal, contextos y dialplan básico para salir a un proveedor VoIP sin dolores de cabeza."
+permalink: /proyectos/asterisk-troncal-sip/
 date: 2026-01-20
 categories:
   - Telefonía IP

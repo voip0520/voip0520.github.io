@@ -5,22 +5,68 @@ entries_layout: list
 classes: wide
 ---
 
-<div style="background:rgba(5,5,5,.6);border:1px solid rgba(57,255,20,.2);border-radius:12px;padding:1.6rem 1.8rem;margin-bottom:1.5rem">
-  <h1 style="color:#39ff14;margin-top:0">Oswaldo Quishpe — Ethical Hacking &amp; Pentesting</h1>
-  <p style="font-size:1.05rem;line-height:1.7">
-    Administrador de redes y servidores Linux orientado a la <strong>seguridad ofensiva</strong>.
-    Aquí documento máquinas vulneradas y retos CTF resueltos: reconocimiento, explotación,
-    escalada de privilegios y remediación, siempre en entornos autorizados de laboratorio.
-  </p>
-  <p style="margin-bottom:1rem">
-    <strong style="color:#39ff14">Certificaciones:</strong> eJPT · CEHPC · EHCA
-  </p>
-  <p>
-    <a class="btn btn--primary" href="/maquinas/">🖥️ Máquinas</a>
-    <a class="btn btn--primary" href="/ctf/">🚩 CTF</a>
-    <a class="btn btn--primary" href="/certificaciones/">📜 Certificaciones</a>
-    <a class="btn btn--primary" href="/about/">👤 Sobre mí</a>
-  </p>
-</div>
+<section class="cyber-hero">
+  <div class="cyber-kicker">PORTAFOLIO DE CIBERSEGURIDAD</div>
+  <h1>Oswaldo Quishpe</h1>
+  <p class="cyber-subtitle">Ethical Hacking · Pentesting · Blue Team · Network Security</p>
+  <p>Administrador de redes y servidores Linux orientado a seguridad ofensiva, análisis de vulnerabilidades, defensa, infraestructura y laboratorios técnicos. Este sitio reúne proyectos, writeups y notas desarrollados en entornos autorizados.</p>
+  <div class="cyber-actions">
+    <a class="btn btn--primary" href="/proyectos/">Ver proyectos</a>
+    <a class="btn cyber-btn-secondary" href="/maquinas/">Explorar writeups</a>
+  </div>
+</section>
 
-<h2 style="color:#39ff14">Últimos writeups</h2>
+<section class="cyber-section">
+  <div class="cyber-section-heading"><span>01</span><h2>Áreas de especialización</h2></div>
+  <div class="cyber-grid cyber-grid-3">
+    <article class="cyber-card"><div class="cyber-icon">⚔</div><h3>Offensive Security</h3><p>Reconocimiento, enumeración, explotación controlada y escalada de privilegios.</p></article>
+    <article class="cyber-card"><div class="cyber-icon">◉</div><h3>Blue Team & DFIR</h3><p>SIEM, análisis de eventos, PCAP, indicadores de compromiso y respuesta técnica.</p></article>
+    <article class="cyber-card"><div class="cyber-icon">⌘</div><h3>Network Security</h3><p>Segmentación, VLAN, routing, firewalls, VPN y troubleshooting de infraestructura.</p></article>
+    <article class="cyber-card"><div class="cyber-icon">$_</div><h3>Linux Security</h3><p>Administración, hardening, servicios, logs y automatización de servidores Linux.</p></article>
+    <article class="cyber-card"><div class="cyber-icon">☎</div><h3>VoIP Security</h3><p>Asterisk, SIP, troncales, dialplan y fundamentos de seguridad en telefonía IP.</p></article>
+    <article class="cyber-card"><div class="cyber-icon">⚑</div><h3>CTF & Labs</h3><p>Resolución documentada de retos web, forense, redes, OSINT y explotación.</p></article>
+  </div>
+</section>
+
+<section class="cyber-section">
+  <div class="cyber-section-heading"><span>02</span><h2>Stack técnico</h2></div>
+  <div class="skill-groups">
+    <div><strong>Offensive</strong><p>Nmap · Metasploit · Burp Suite · Gobuster · Nikto · Hydra</p></div>
+    <div><strong>Blue Team / DFIR</strong><p>Wazuh · Wireshark · TShark · PCAP Analysis · Event Logs</p></div>
+    <div><strong>Infraestructura</strong><p>Linux · Cisco · MikroTik · Palo Alto · VLAN · Routing · VPN</p></div>
+    <div><strong>VoIP / Automatización</strong><p>Asterisk · SIP · Bash · Git · GitHub Pages</p></div>
+  </div>
+</section>
+
+<section class="cyber-section">
+  <div class="cyber-section-heading"><span>03</span><h2>Portafolio en números</h2></div>
+  <div class="cyber-stats">
+    <div><strong>{{ site.posts | size }}</strong><span>Publicaciones</span></div>
+    <div><strong>4</strong><span>Certificaciones</span></div>
+    <div><strong>4</strong><span>Capacitaciones</span></div>
+    <div><strong>{{ site.tags | size }}</strong><span>Tecnologías / tags</span></div>
+  </div>
+</section>
+
+<section class="cyber-section">
+  <div class="cyber-section-heading"><span>04</span><h2>Proyectos destacados</h2></div>
+  <div class="cyber-grid cyber-grid-2">
+    <article class="cyber-card cyber-project"><span class="cyber-badge">BLUE TEAM</span><h3>Wazuh SOC Lab</h3><p>Instalación, troubleshooting, SIEM y análisis de eventos orientado a operaciones SOC.</p><a href="/writeups/wazuh-soc/">Ver proyecto →</a></article>
+    <article class="cyber-card cyber-project"><span class="cyber-badge">NETWORK</span><h3>VLAN & QoS para VoIP</h3><p>Segmentación y calidad de servicio aplicada a infraestructura de voz sobre IP.</p><a href="/proyectos/vlans-qos-voip/">Ver proyecto →</a></article>
+    <article class="cyber-card cyber-project"><span class="cyber-badge">LINUX</span><h3>Hardening Linux</h3><p>Controles y buenas prácticas para reducir la superficie de ataque de un servidor Linux.</p><a href="/proyectos/hardening-linux/">Ver proyecto →</a></article>
+    <article class="cyber-card cyber-project"><span class="cyber-badge">VoIP</span><h3>Asterisk SIP Lab</h3><p>Configuración documentada de troncal SIP, contextos y dialplan.</p><a href="/proyectos/asterisk-troncal-sip/">Ver proyecto →</a></article>
+  </div>
+  <p class="cyber-center"><a class="btn cyber-btn-secondary" href="/proyectos/">Todos los proyectos</a></p>
+</section>
+
+<section class="cyber-section">
+  <div class="cyber-section-heading"><span>05</span><h2>Writeups destacados</h2></div>
+  <div class="cyber-grid cyber-grid-2">
+    <article class="cyber-card"><span class="cyber-badge">HACKTHEBOX</span><h3>CAP</h3><p>PCAP · FTP · Linux · SUID</p><a href="/writeups/htb-cap/">Leer writeup →</a></article>
+    <article class="cyber-card"><span class="cyber-badge">WINDOWS</span><h3>Ethernal</h3><p>SMB · MS17-010 · explotación controlada</p><a href="/writeups/ethernal/">Leer writeup →</a></article>
+    <article class="cyber-card"><span class="cyber-badge">LINUX</span><h3>Nebula Forge</h3><p>SQLi · RCE · LFI · Privilege Escalation</p><a href="/writeups/vuln-lab-nebula/">Leer writeup →</a></article>
+    <article class="cyber-card"><span class="cyber-badge">DFIR</span><h3>Koi Stealer</h3><p>Análisis forense de tráfico y PCAP.</p><a href="/writeups/koi-stealer/">Leer writeup →</a></article>
+  </div>
+</section>
+
+<div class="cyber-section-heading latest-heading"><span>06</span><h2>Últimos writeups</h2></div>

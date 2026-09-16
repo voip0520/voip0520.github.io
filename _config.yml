@@ -10,7 +10,7 @@ locale                   : "es-ES"
 title                    : ""
 title_separator          : "-"
 name                     : "Oswaldo Quishpe"
-description              : "Notas de redes, telefonía IP, servidores Linux y seguridad ofensiva."
+description              : "Portafolio de ciberseguridad: pentesting, Blue Team, DFIR, redes, Linux y VoIP."
 url                      : "https://voip0520.github.io"
 baseurl                  : ""                      # ver README si NO renombras el repo
 repository               : "voip0520/voip0520.github.io"
@@ -25,7 +25,7 @@ search                   : true
 author:
   name        : "Oswaldo Quishpe"
   avatar      : "/assets/images/ejpt.png"
-  bio         : "eJPT<br>CEHPC<br>EHCA<br>Administrador de Redes / Telefonía IP / Servidores Linux"
+  bio         : "eJPT · CEHPC · EHCA · CJWAPT<br>Pentesting · Redes · Linux · VoIP"
   location    : "Ecuador"
   links:
     - label: "LinkedIn"

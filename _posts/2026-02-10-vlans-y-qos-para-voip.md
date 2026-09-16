@@ -1,6 +1,7 @@
 ---
 title: "VLAN de voz y QoS para tráfico VoIP"
 excerpt: "Cómo separar el tráfico de teléfonos IP y priorizarlo para eliminar cortes y jitter en la red LAN."
+permalink: /proyectos/vlans-qos-voip/
 date: 2026-02-10
 categories:
   - Redes

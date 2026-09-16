@@ -3,14 +3,19 @@ main:
     url: /
   - title: "Acerca de"
     url: /about/
+  - title: "Proyectos"
+    url: /proyectos/
+  - title: "Laboratorios"
+    url: /laboratorios/
   - title: "Máquinas"
     url: /maquinas/
   - title: "CTF"
     url: /ctf/
+  - title: "Metodología"
+    url: /metodologia/
+  - title: "Notas"
+    url: /notas/
   - title: "Certificaciones"
     url: /certificaciones/
   - title: "Capacitaciones"
     url: /capacitaciones/
-  - title: "Notas eJPT"
-    url: /notas-ejpt/
-  
