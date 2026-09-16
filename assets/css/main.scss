@@ -957,3 +957,101 @@ blockquote {
   .machine-grid, .writeup-meta-grid, .writeup-mitre-grid { grid-template-columns: 1fr; }
   .machine-intro, .writeup-hero { padding: 1.2rem; }
 }
+
+// ============================================================
+// CORRECCIÓN TOC - TABLA DE CONTENIDO EN WRITEUPS
+// Evita que "Contenido" tape el artículo
+// ============================================================
+
+// Escritorio
+@media (min-width: 1280px) {
+
+  .layout--writeup .page,
+  body.layout--writeup .page {
+    padding-right: 285px !important;
+    position: relative;
+  }
+
+  .layout--writeup .sidebar__right,
+  body.layout--writeup .sidebar__right {
+    position: absolute !important;
+
+    top: 0;
+    right: 0;
+
+    width: 250px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    z-index: 2;
+  }
+
+  .layout--writeup .toc,
+  body.layout--writeup .toc {
+    position: sticky !important;
+    top: 90px;
+
+    width: 100% !important;
+    max-height: calc(100vh - 110px);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    box-sizing: border-box;
+  }
+}
+
+
+// ============================================================
+// TABLET / PANTALLAS MEDIANAS
+// El TOC deja de flotar y pasa arriba del artículo
+// ============================================================
+
+@media (max-width: 1279px) {
+
+  .layout--writeup .page,
+  body.layout--writeup .page {
+    padding-right: 1.6rem !important;
+  }
+
+  .layout--writeup .sidebar__right,
+  body.layout--writeup .sidebar__right {
+    position: static !important;
+
+    float: none !important;
+
+    width: 100% !important;
+
+    margin: 0 0 2rem 0 !important;
+    padding: 0 !important;
+  }
+
+  .layout--writeup .toc,
+  body.layout--writeup .toc {
+    position: static !important;
+
+    width: 100% !important;
+    max-height: none !important;
+
+    overflow: visible;
+  }
+}
+
+
+// ============================================================
+// MÓVIL
+// ============================================================
+
+@media (max-width: 768px) {
+
+  .layout--writeup .page,
+  body.layout--writeup .page {
+    padding-left: .8rem !important;
+    padding-right: .8rem !important;
+  }
+
+  .layout--writeup .toc {
+    font-size: .90rem;
+  }
+}
