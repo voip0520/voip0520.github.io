@@ -363,37 +363,78 @@ blockquote {
   .cyber-actions .btn { width:100%; text-align:center; }
 }
 
-
 // ============================================================
-// AJUSTES RESPONSIVE DEL PORTAFOLIO
+// LAYOUT DEFINITIVO - PORTAFOLIO RESPONSIVE
 // ============================================================
 
-// ----- Ancho general del sitio -----
-
+// Contenedor general: aprovecha monitores grandes sin pegarse a los bordes.
 #main {
-  max-width: 1500px;
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  box-sizing: border-box;
 }
 
+.masthead__inner-wrap {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+}
 
-// ----- Sidebar más compacta -----
+// El contenido interno siempre puede usar todo el ancho disponible.
+.page,
+.archive,
+.page__inner-wrap,
+.page__content {
+  min-width: 0;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+.page__inner-wrap,
+.page__content {
+  width: 100%;
+}
+
+.page__content {
+  overflow-wrap: break-word;
+}
+
+// ============================================================
+// ESCRITORIO: sidebar fija + contenido realmente ancho
+// ============================================================
 
 @media (min-width: 1024px) {
-
   .sidebar {
-    width: 245px;
+    float: left;
+    width: 230px !important;
     padding-right: 1.5rem;
+    box-sizing: border-box;
   }
 
-  .sidebar .author__avatar {
-    width: 110px;
-    height: 110px;
+  .page,
+  .archive {
+    float: right;
+    width: calc(100% - 250px) !important;
+    max-width: none !important;
+    padding: 1.35rem 1.6rem;
+    box-sizing: border-box;
+  }
+
+  .sidebar .author__avatar,
+  .sidebar .author__avatar img {
+    width: 118px;
+    height: 118px;
   }
 
   .sidebar .author__avatar img {
-    width: 110px;
-    height: 110px;
     object-fit: cover;
   }
 
@@ -401,108 +442,109 @@ blockquote {
     font-size: 1.25rem;
   }
 
-  .author__bio {
-    font-size: .90rem;
-    line-height: 1.6;
-  }
-
+  .author__bio,
   .author__urls {
     font-size: .90rem;
+    line-height: 1.55;
+  }
+
+  // Home: 3 tarjetas por fila cuando hay espacio suficiente.
+  .cyber-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cyber-grid-2,
+  .skill-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cyber-stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
-
 // ============================================================
-// CONTENIDO PRINCIPAL
-// ============================================================
-
-.page {
-  min-width: 0;
-}
-
-.page__inner-wrap {
-  width: 100%;
-  max-width: none;
-}
-
-.page__content {
-  width: 100%;
-  max-width: none;
-  overflow-wrap: break-word;
-}
-
-
-// ============================================================
-// HERO DEL HOME
+// HERO
 // ============================================================
 
 .cyber-hero {
   width: 100%;
-  max-width: 100%;
+  max-width: none;
+  padding: clamp(1.6rem, 3vw, 3rem);
+  margin: 0 0 2rem;
   box-sizing: border-box;
-
-  padding: 3rem;
-  margin: 0 0 2rem 0;
-
-  overflow: hidden;
 }
 
 .cyber-hero h1 {
-  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-size: clamp(2.35rem, 4.2vw, 4.15rem);
   line-height: 1.05;
-
-  margin-top: .6rem;
-  margin-bottom: 1rem;
-
-  overflow-wrap: break-word;
-}
-
-.cyber-hero .hero-subtitle {
-  font-size: clamp(1rem, 1.8vw, 1.35rem);
-  line-height: 1.5;
-
-  max-width: 100%;
-
+  margin: .45rem 0 .85rem;
   overflow-wrap: break-word;
 }
 
 .cyber-hero p {
-  max-width: 950px;
-
-  font-size: 1.05rem;
+  max-width: 1000px;
+  font-size: 1.02rem;
   line-height: 1.65;
-
-  overflow-wrap: break-word;
 }
 
-
-// ============================================================
-// BOTONES DEL HERO
-// ============================================================
-
-.cyber-hero .btn {
-  margin-right: .5rem;
-  margin-bottom: .5rem;
+.cyber-subtitle {
+  font-size: clamp(.95rem, 1.5vw, 1.2rem);
+  line-height: 1.5;
 }
 
+// ============================================================
+// TARJETAS, SKILLS Y ESTADÍSTICAS
+// ============================================================
+
+.cyber-grid {
+  width: 100%;
+  min-width: 0;
+}
+
+.cyber-card {
+  min-width: 0;
+  height: 100%;
+  box-sizing: border-box;
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+
+.cyber-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(57,255,20,.45);
+  box-shadow: 0 8px 25px rgba(0,0,0,.35), 0 0 15px rgba(57,255,20,.07);
+}
+
+.cyber-card a {
+  transition: color .2s ease, text-shadow .2s ease;
+}
+
+.cyber-card a:hover {
+  color: $neon;
+  text-shadow: 0 0 8px rgba(57,255,20,.30);
+}
+
+.cyber-stats > * {
+  transition: transform .2s ease, border-color .2s ease;
+}
+
+.cyber-stats > *:hover {
+  transform: translateY(-3px);
+  border-color: rgba(57,255,20,.45);
+}
+
+.author__avatar img {
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.author__avatar img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 10px rgba(57,255,20,.35), 0 0 25px rgba(57,255,20,.18);
+}
 
 // ============================================================
 // NAVBAR
 // ============================================================
-
-.masthead {
-  width: 100%;
-}
-
-.masthead__inner-wrap {
-  max-width: 1500px;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.greedy-nav {
-  background: transparent !important;
-}
 
 .greedy-nav .visible-links {
   display: flex;
@@ -510,195 +552,130 @@ blockquote {
 }
 
 .greedy-nav .visible-links a {
-  font-size: .95rem;
-  padding-left: .75rem;
-  padding-right: .75rem;
+  font-size: .88rem;
+  padding-left: .62rem;
+  padding-right: .62rem;
   white-space: nowrap;
 }
-
-
-// ============================================================
-// TARJETAS
-// ============================================================
-
-.cyber-grid {
-  display: grid;
-
-  grid-template-columns:
-    repeat(auto-fit, minmax(240px, 1fr));
-
-  gap: 1rem;
-
-  width: 100%;
-}
-
-.cyber-card {
-  min-width: 0;
-  height: 100%;
-
-  box-sizing: border-box;
-}
-
-
-// ============================================================
-// SKILLS / BADGES
-// ============================================================
-
-.cyber-badges {
-  display: flex;
-  flex-wrap: wrap;
-
-  gap: .45rem;
-
-  margin-top: 1rem;
-}
-
-.cyber-badge {
-  white-space: nowrap;
-}
-
-
-// ============================================================
-// ESTADÍSTICAS
-// ============================================================
-
-.cyber-stats {
-  display: grid;
-
-  grid-template-columns:
-    repeat(auto-fit, minmax(150px, 1fr));
-
-  gap: 1rem;
-
-  width: 100%;
-}
-
 
 // ============================================================
 // TABLET
 // ============================================================
 
-@media (max-width: 1100px) {
-
-  #main {
+@media (min-width: 769px) and (max-width: 1023px) {
+  #main,
+  .masthead__inner-wrap {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .cyber-hero {
-    padding: 2.2rem;
+  .sidebar {
+    width: 100%;
+    padding: .8rem 0 1rem;
   }
 
-  .cyber-hero h1 {
-    font-size: clamp(2.5rem, 6vw, 3.8rem);
+  .page,
+  .archive {
+    width: 100% !important;
+    max-width: none !important;
   }
 
-  .greedy-nav .visible-links a {
-    font-size: .88rem;
-    padding-left: .55rem;
-    padding-right: .55rem;
+  .cyber-grid-3,
+  .cyber-grid-2,
+  .skill-groups,
+  .method-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cyber-stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
-
 
 // ============================================================
 // MÓVIL
 // ============================================================
 
 @media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 
-  #main {
+  #main,
+  .masthead__inner-wrap {
     padding-left: .75rem;
     padding-right: .75rem;
   }
 
-  // Sidebar pasa arriba del contenido
   .sidebar {
-    width: 100%;
+    float: none;
+    width: 100% !important;
     padding: 1rem 0;
     margin-bottom: 1rem;
   }
 
   .sidebar .author__avatar {
-    margin-left: auto;
-    margin-right: auto;
-
     width: 100px;
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .sidebar .author__avatar img {
     width: 100px;
     height: 100px;
-
     object-fit: cover;
   }
 
-  .author__content {
-    text-align: center;
-  }
-
-  .author__name {
-    font-size: 1.25rem;
-  }
-
+  .author__content,
   .author__bio {
     text-align: center;
   }
 
-  // Hero
+  .page,
+  .archive {
+    float: none;
+    width: 100% !important;
+    max-width: none !important;
+    padding: .9rem;
+  }
+
   .cyber-hero {
-    padding: 1.5rem;
-    border-radius: 8px;
+    padding: 1.4rem;
+    border-radius: 9px;
   }
 
   .cyber-hero h1 {
     font-size: clamp(2rem, 11vw, 3rem);
-    line-height: 1.1;
-  }
-
-  .cyber-hero .hero-subtitle {
-    font-size: 1rem;
   }
 
   .cyber-hero p {
     font-size: .95rem;
-    line-height: 1.6;
   }
 
-  // Botones ocupan todo el ancho
-  .cyber-hero .btn {
+  .cyber-actions .btn {
     display: block;
-
     width: 100%;
-
     margin-right: 0;
     margin-bottom: .7rem;
-
     text-align: center;
   }
 
-  // Tarjetas una debajo de otra
-  .cyber-grid {
+  .cyber-grid-2,
+  .cyber-grid-3,
+  .skill-groups,
+  .method-flow {
     grid-template-columns: 1fr;
   }
 
-  // Estadísticas
   .cyber-stats {
-    grid-template-columns:
-      repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-
-// ============================================================
-// MÓVILES PEQUEÑOS
-// ============================================================
-
 @media (max-width: 480px) {
-
   .cyber-hero {
-    padding: 1.2rem;
+    padding: 1.15rem;
   }
 
   .cyber-hero h1 {
@@ -709,122 +686,8 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
-  .cyber-badge {
-    font-size: .75rem;
+  .cyber-badge,
+  .tag-pill {
+    font-size: .65rem;
   }
-}
-
-
-// ============================================================
-// REFINAMIENTO FINAL - DESKTOP
-// ============================================================
-
-@media (min-width: 1200px) {
-
-  #main {
-    max-width: 1650px;
-  }
-
-  .masthead__inner-wrap {
-    max-width: 1650px;
-  }
-
-  .sidebar {
-    width: 260px;
-  }
-
-  .sidebar .author__avatar,
-  .sidebar .author__avatar img {
-    width: 125px;
-    height: 125px;
-  }
-
-  .author__name {
-    font-size: 1.35rem;
-  }
-
-  .author__bio,
-  .author__urls {
-    font-size: .95rem;
-  }
-
-  .cyber-hero {
-    padding: 3.2rem;
-  }
-}
-
-
-// ============================================================
-// TARJETAS - EFECTO INTERACTIVO
-// ============================================================
-
-.cyber-card {
-  transition:
-    transform .20s ease,
-    border-color .20s ease,
-    box-shadow .20s ease;
-}
-
-.cyber-card:hover {
-  transform: translateY(-4px);
-
-  border-color: rgba(57,255,20,.45);
-
-  box-shadow:
-    0 8px 25px rgba(0,0,0,.35),
-    0 0 15px rgba(57,255,20,.07);
-}
-
-
-// ============================================================
-// ENLACES DE TARJETAS
-// ============================================================
-
-.cyber-card a {
-  transition:
-    color .2s ease,
-    text-shadow .2s ease;
-}
-
-.cyber-card a:hover {
-  color: #39ff14;
-
-  text-shadow:
-    0 0 8px rgba(57,255,20,.30);
-}
-
-
-// ============================================================
-// ESTADÍSTICAS
-// ============================================================
-
-.cyber-stats > * {
-  transition:
-    transform .2s ease,
-    border-color .2s ease;
-}
-
-.cyber-stats > *:hover {
-  transform: translateY(-3px);
-
-  border-color: rgba(57,255,20,.45);
-}
-
-
-// ============================================================
-// AVATAR
-// ============================================================
-
-.author__avatar img {
-  transition:
-    transform .25s ease,
-    box-shadow .25s ease;
-}
-
-.author__avatar img:hover {
-  transform: scale(1.04);
-
-  box-shadow:
-    0 0 10px rgba(57,255,20,.35),
-    0 0 25px rgba(57,255,20,.18);
 }
