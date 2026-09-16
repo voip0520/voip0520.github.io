@@ -7,23 +7,57 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}";
 @import "minimal-mistakes";
 
-// ===== Paleta =====
-$neon:     #39ff14;
-$neon-dim: #2bd60f;
-$bg:       #070707;
-$card:     #0e0e0e;
+// ======================================================
+// PALETA - PORTAFOLIO CYBERSECURITY
+// ======================================================
 
-// ===== Fondo temático fijo =====
+$neon:        #39ff14;  // Verde brillante: hover/detalles
+$neon-text:   #32e61c;  // Verde ligeramente más suave
+$neon-dim:    #2bd60f;
+
+$bg:          #070707;
+$card:        #0e0e0e;
+$nav:         #101214;
+
+$text:        #e6e6e6;
+$muted:       #b5b5b5;
+
+
+// ======================================================
+// FONDO
+// ======================================================
+
+html,
 body {
   background-color: $bg;
+}
+
+body {
   background-image: url("/assets/images/bg.svg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  color: $text;
 }
 
-// ===== Enlaces y títulos =====
-a { color: $neon; &:hover { color: #ffffff; } }
+
+// ======================================================
+// ENLACES
+// ======================================================
+
+a {
+  color: $neon-text;
+  transition: color .2s ease;
+
+  &:hover {
+    color: $neon;
+  }
+}
+
+
+// ======================================================
+// TÍTULOS
+// ======================================================
 
 .page__title,
 .archive__item-title a,
@@ -31,68 +65,236 @@ a { color: $neon; &:hover { color: #ffffff; } }
 .page__content h2,
 .page__content h2 a,
 .site-title,
-.breadcrumbs a { color: $neon !important; }
+.breadcrumbs a {
+  color: $neon-text !important;
+}
 
 .page__content h2,
 .page__content h3 {
-  border-bottom: 1px solid rgba(57,255,20,.18);
-  padding-bottom: .25rem;
+  border-bottom: 1px solid rgba(57,255,20,.16);
+  padding-bottom: .3rem;
 }
 
-// ===== Cabecera / navbar translúcida =====
+
+// ======================================================
+// NAVBAR
+// ======================================================
+
 .masthead {
-  background: rgba(0,0,0,.55);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid rgba(57,255,20,.25);
+  background: rgba(16,18,20,.96) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  border-bottom: 1px solid rgba(57,255,20,.20);
+  box-shadow: 0 2px 12px rgba(0,0,0,.35);
 }
 
-// ===== Barra lateral de autor =====
+
+// Menú principal
+.greedy-nav {
+  background: transparent !important;
+}
+
+.greedy-nav a {
+  color: #eeeeee;
+
+  &:hover {
+    color: $neon;
+  }
+}
+
+// Elemento activo
+.greedy-nav .visible-links a::before {
+  background: $neon;
+}
+
+
+// ======================================================
+// BARRA LATERAL / AUTOR
+// ======================================================
+
+.sidebar {
+  color: $muted;
+}
+
 .sidebar .author__avatar img {
-  border: 2px solid $neon;
-  box-shadow: 0 0 14px rgba(57,255,20,.35);
-}
-.author__name { color: $neon; }
+  border: 2px solid $neon-text;
 
-// ===== Tarjetas en listados de archivo =====
+  box-shadow:
+    0 0 8px rgba(57,255,20,.25),
+    0 0 18px rgba(57,255,20,.12);
+}
+
+.author__name {
+  color: $neon-text;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: #cccccc;
+}
+
+.author__urls a {
+  color: $muted;
+
+  &:hover {
+    color: $neon;
+  }
+}
+
+
+// ======================================================
+// CONTENIDO PRINCIPAL
+// ======================================================
+
+.page,
+.archive {
+  background: rgba(5,5,5,.68);
+
+  border: 1px solid rgba(57,255,20,.05);
+  border-radius: 10px;
+
+  padding: 1.2rem 1.6rem;
+
+  box-shadow: 0 5px 25px rgba(0,0,0,.20);
+}
+
+
+// ======================================================
+// TARJETAS / WRITEUPS
+// ======================================================
+
 .archive__item {
-  background: rgba(14,14,14,.7);
-  border: 1px solid rgba(57,255,20,.12);
+  background: rgba(14,14,14,.78);
+
+  border: 1px solid rgba(57,255,20,.10);
   border-radius: 8px;
+
   padding: 1rem 1.2rem;
   margin-bottom: 1rem;
-  transition: border-color .2s, transform .2s;
+
+  transition:
+    border-color .2s ease,
+    transform .2s ease,
+    box-shadow .2s ease;
 }
+
 .archive__item:hover {
-  border-color: rgba(57,255,20,.5);
+  border-color: rgba(57,255,20,.40);
+
   transform: translateY(-2px);
+
+  box-shadow:
+    0 5px 20px rgba(0,0,0,.30),
+    0 0 10px rgba(57,255,20,.05);
 }
 
-// ===== Código estilo terminal =====
-div.highlighter-rouge, figure.highlight, pre.code {
-  border: 1px solid rgba(57,255,20,.22);
+
+// ======================================================
+// CÓDIGO / TERMINAL
+// ======================================================
+
+div.highlighter-rouge,
+figure.highlight,
+pre.code {
+  background: #090909;
+
+  border: 1px solid rgba(57,255,20,.18);
   border-radius: 6px;
+
+  box-shadow: inset 0 0 15px rgba(0,0,0,.5);
 }
-code { color: #c8facc; }
 
-// ===== Tablas =====
-table { border-collapse: collapse; }
-th { background: rgba(57,255,20,.10); color: $neon; }
-td, th { border: 1px solid rgba(57,255,20,.18); padding: 6px 10px; }
+code {
+  color: #c8facc;
+}
 
-// ===== Botones =====
-.btn--primary { background-color: $neon-dim; border-color: $neon-dim; }
-.btn--primary:hover { background-color: $neon; }
 
-// ===== Blockquote (ficha de máquina) =====
+// ======================================================
+// TABLAS
+// ======================================================
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background: rgba(57,255,20,.08);
+  color: $neon-text;
+}
+
+td,
+th {
+  border: 1px solid rgba(57,255,20,.15);
+  padding: 6px 10px;
+}
+
+
+// ======================================================
+// BOTONES
+// ======================================================
+
+.btn--primary {
+  background-color: $neon-dim;
+  border-color: $neon-dim;
+  color: #050505 !important;
+  font-weight: 600;
+
+  transition:
+    background-color .2s ease,
+    box-shadow .2s ease;
+}
+
+.btn--primary:hover {
+  background-color: $neon;
+  border-color: $neon;
+
+  box-shadow: 0 0 12px rgba(57,255,20,.25);
+}
+
+
+// ======================================================
+// BLOCKQUOTE
+// ======================================================
+
 blockquote {
-  border-left: 3px solid $neon;
-  background: rgba(57,255,20,.05);
+  border-left: 3px solid $neon-text;
+
+  background: rgba(57,255,20,.04);
+
   border-radius: 0 6px 6px 0;
+
+  color: #d5d5d5;
 }
 
-// ===== Contenido con fondo semitransparente para legibilidad =====
-.page, .archive {
-  background: rgba(5,5,5,.55);
+
+// ======================================================
+// SELECCIÓN DE TEXTO
+// ======================================================
+
+::selection {
+  background: rgba(57,255,20,.25);
+  color: #ffffff;
+}
+
+
+// ======================================================
+// SCROLLBAR
+// ======================================================
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #242424;
   border-radius: 10px;
-  padding: 1.2rem 1.6rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $neon-dim;
 }
