@@ -1,16 +1,25 @@
 ---
-title: "StarGateSG - Análisis de tráfico (ATENEA)"
+title: StarGateSG - Análisis de tráfico (ATENEA)
 permalink: /writeups/stargatesg/
-excerpt: "WriteUp — «StarGateSG» · ATENEA (CCN-CERT)"
+excerpt: WriteUp — «StarGateSG» · ATENEA (CCN-CERT)
 date: 2026-08-15
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - atenea
-  - forense
-  - pcap
-  - trafico
-  - wireshark
+- atenea
+- forense
+- pcap
+- trafico
+- wireshark
+layout: writeup
+techniques:
+- atenea
+- forense
+- pcap
+- trafico
+- wireshark
+platform: ATENEA / CCN-CERT
+status: Completado
 ---
 
 > **Plataforma:** ATENEA

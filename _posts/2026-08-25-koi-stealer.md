@@ -1,17 +1,27 @@
 ---
-title: "Koi Stealer - Análisis de tráfico y forense"
+title: Koi Stealer - Análisis de tráfico y forense
 permalink: /writeups/koi-stealer/
-excerpt: "2. Sigue los nodos 01, 02, 03... en orden."
+excerpt: 2. Sigue los nodos 01, 02, 03... en orden.
 date: 2026-08-25
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - forense
-  - pcap
-  - trafico
-  - wireshark
-  - malware
-  - c2
+- forense
+- pcap
+- trafico
+- wireshark
+- malware
+- c2
+layout: writeup
+techniques:
+- forense
+- pcap
+- trafico
+- wireshark
+- malware
+- c2
+platform: CTF / Laboratorio
+status: Completado
 ---
 
 > **Plataforma:** CTF

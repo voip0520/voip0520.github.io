@@ -1,15 +1,24 @@
 ---
-title: "Hardening básico de un servidor Linux"
-excerpt: "Lista de medidas mínimas que aplico a todo servidor antes de exponerlo: SSH, firewall, actualizaciones y monitoreo."
+title: Hardening básico de un servidor Linux
+excerpt: 'Lista de medidas mínimas que aplico a todo servidor antes de exponerlo: SSH, firewall, actualizaciones y monitoreo.'
 permalink: /proyectos/hardening-linux/
 date: 2026-03-05
 categories:
-  - Servidores Linux
+- Servidores Linux
 tags:
-  - linux
-  - hardening
-  - ssh
-  - firewall
+- linux
+- hardening
+- ssh
+- firewall
+layout: writeup
+techniques:
+- linux
+- hardening
+- ssh
+- firewall
+platform: Laboratorio autorizado
+os: Linux
+status: Completado
 ---
 
 ## SSH

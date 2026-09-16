@@ -1,15 +1,24 @@
 ---
-title: "TheVoucher - Pentesting (TheHackersLabs)"
+title: TheVoucher - Pentesting (TheHackersLabs)
 permalink: /writeups/thevoucher/
-excerpt: "Writeup completo del proceso de pentesting sobre 192.168.143.133 (CyberShield Academy / TheHackersLabs - TheVoucher). Expandir los nodos del arbol para ver cada seccion."
+excerpt: Writeup completo del proceso de pentesting sobre 192.168.143.133 (CyberShield Academy / TheHackersLabs - TheVoucher). Expandir los nodos del arbol para ver cada seccion.
 date: 2026-09-01
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - thehackerslabs
-  - linux
-  - pentesting
-  - privesc
+- thehackerslabs
+- linux
+- pentesting
+- privesc
+layout: writeup
+techniques:
+- thehackerslabs
+- linux
+- pentesting
+- privesc
+platform: TheHackersLabs
+os: Linux
+status: Completado
 ---
 
 > **Plataforma:** TheHackersLabs

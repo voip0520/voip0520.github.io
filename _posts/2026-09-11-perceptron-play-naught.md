@@ -1,15 +1,22 @@
 ---
-title: "Perceptron Play Naught"
+title: Perceptron Play Naught
 permalink: /writeups/perceptron-play-naught/
-excerpt: "Writeup del reto 'Perceptron Play Naught' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
+excerpt: Writeup del reto 'Perceptron Play Naught' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).
 date: 2026-09-11
 categories:
-  - AI Foundations I
-  - AI
+- AI Foundations I
+- AI
 tags:
-  - AI-Foundations-I
-  - Easy
-  - AI
+- AI-Foundations-I
+- Easy
+- AI
+layout: writeup
+techniques:
+- AI Foundations I
+- Easy
+- AI
+platform: Laboratorio autorizado
+status: Completado
 ---
 
 Writeup del reto "Perceptron Play Naught" (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).

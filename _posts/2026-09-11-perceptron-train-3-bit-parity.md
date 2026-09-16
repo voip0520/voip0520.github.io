@@ -1,15 +1,22 @@
 ---
-title: "Perceptron Train 3-Bit Parity"
+title: Perceptron Train 3-Bit Parity
 permalink: /writeups/perceptron-train-3-bit-parity/
-excerpt: "Writeup del reto 'Perceptron Train 3-Bit Parity' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
+excerpt: Writeup del reto 'Perceptron Train 3-Bit Parity' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).
 date: 2026-09-11
 categories:
-  - AI Foundations I
-  - AI
+- AI Foundations I
+- AI
 tags:
-  - AI-Foundations-I
-  - Easy
-  - AI
+- AI-Foundations-I
+- Easy
+- AI
+layout: writeup
+techniques:
+- AI Foundations I
+- Easy
+- AI
+platform: Laboratorio autorizado
+status: Completado
 ---
 
 Writeup del reto "Perceptron Train 3-Bit Parity" (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).

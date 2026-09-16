@@ -1,15 +1,22 @@
 ---
-title: "Pizza Router"
+title: Pizza Router
 permalink: /writeups/pizza-router/
-excerpt: "Writeup del reto 'Pizza Router' (picoCTF 2026, categoria Binary Exploitation, dificultad Hard, por Palash Oswal)."
+excerpt: Writeup del reto 'Pizza Router' (picoCTF 2026, categoria Binary Exploitation, dificultad Hard, por Palash Oswal).
 date: 2026-09-11
 categories:
-  - picoCTF 2026
-  - Binary Exploitation
+- picoCTF 2026
+- Binary Exploitation
 tags:
-  - picoCTF-2026
-  - Hard
-  - Binary-Exploitation
+- picoCTF-2026
+- Hard
+- Binary-Exploitation
+layout: writeup
+techniques:
+- picoCTF 2026
+- Hard
+- Binary Exploitation
+platform: picoCTF
+status: Completado
 ---
 
 Writeup del reto "Pizza Router" (picoCTF 2026, categoria Binary Exploitation, dificultad Hard, por Palash Oswal).

@@ -1,15 +1,22 @@
 ---
-title: "Reingreso"
+title: Reingreso
 permalink: /writeups/reingreso/
-excerpt: "Writeup del reto 'Reingreso' (picoCTF 2026, categoria Blockchain, dificultad Duro, por OB)."
+excerpt: Writeup del reto 'Reingreso' (picoCTF 2026, categoria Blockchain, dificultad Duro, por OB).
 date: 2026-09-11
 categories:
-  - picoCTF 2026
-  - Blockchain
+- picoCTF 2026
+- Blockchain
 tags:
-  - picoCTF-2026
-  - Hard
-  - Blockchain
+- picoCTF-2026
+- Hard
+- Blockchain
+layout: writeup
+techniques:
+- picoCTF 2026
+- Hard
+- Blockchain
+platform: picoCTF
+status: Completado
 ---
 
 Writeup del reto "Reingreso" (picoCTF 2026, categoria Blockchain, dificultad Duro, por OB).

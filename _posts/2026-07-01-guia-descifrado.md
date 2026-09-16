@@ -1,15 +1,23 @@
 ---
-title: "Guía de descifrado y decodificación"
+title: Guía de descifrado y decodificación
 permalink: /writeups/guia-descifrado/
-excerpt: "GUÍA PRÁCTICA: DESCIFRADO Y DECODIFICACIÓN"
+excerpt: 'GUÍA PRÁCTICA: DESCIFRADO Y DECODIFICACIÓN'
 date: 2026-07-01
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - guia
-  - hashes
-  - codificaciones
-  - criptografia
+- guia
+- hashes
+- codificaciones
+- criptografia
+layout: writeup
+techniques:
+- guia
+- hashes
+- codificaciones
+- criptografia
+platform: Laboratorio autorizado
+status: Completado
 ---
 
 > **Plataforma:** Guías

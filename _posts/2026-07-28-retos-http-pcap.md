@@ -1,15 +1,23 @@
 ---
-title: "Retos HTTP con PCAP"
+title: Retos HTTP con PCAP
 permalink: /writeups/retos-http-pcap/
-excerpt: "WRITEUP - Resolución de retos HTTP con capturas PCAPObjetivo: analizar capturas de tráfico HTTP para extraer datos solicitados por el reto.Herramienta usada: Wireshark / tshark."
+excerpt: 'WRITEUP - Resolución de retos HTTP con capturas PCAPObjetivo: analizar capturas de tráfico HTTP para extraer datos solicitados por el reto.Herramienta usada: Wireshark / tshark.'
 date: 2026-07-28
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - pcap
-  - http
-  - trafico
-  - wireshark
+- pcap
+- http
+- trafico
+- wireshark
+layout: writeup
+techniques:
+- pcap
+- http
+- trafico
+- wireshark
+platform: CTF / Laboratorio
+status: Completado
 ---
 
 > **Plataforma:** CTF

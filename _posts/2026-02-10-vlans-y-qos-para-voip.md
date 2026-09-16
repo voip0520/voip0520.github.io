@@ -1,15 +1,23 @@
 ---
-title: "VLAN de voz y QoS para tráfico VoIP"
-excerpt: "Cómo separar el tráfico de teléfonos IP y priorizarlo para eliminar cortes y jitter en la red LAN."
+title: VLAN de voz y QoS para tráfico VoIP
+excerpt: Cómo separar el tráfico de teléfonos IP y priorizarlo para eliminar cortes y jitter en la red LAN.
 permalink: /proyectos/vlans-qos-voip/
 date: 2026-02-10
 categories:
-  - Redes
+- Redes
 tags:
-  - vlan
-  - qos
-  - switching
-  - cisco
+- vlan
+- qos
+- switching
+- cisco
+layout: writeup
+techniques:
+- vlan
+- qos
+- switching
+- cisco
+platform: Laboratorio autorizado
+status: Completado
 ---
 
 ## Por qué separar la voz

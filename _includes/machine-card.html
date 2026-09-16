@@ -1,5 +1,8 @@
 <article class="machine-card">
-  <div class="machine-card-top"><span>{{ include.platform }}</span><span>{{ include.os }}</span></div>
+  <div class="machine-card-top">
+    <span>{{ include.platform }}</span>
+    <span>{{ include.os }}</span>
+  </div>
   <h3>{{ include.name }}</h3>
   <p>{{ include.vector }}</p>
   <a href="{{ include.url | relative_url }}">Ver writeup →</a>

@@ -1,14 +1,20 @@
 ---
-title: "El Topo DNS"
+title: El Topo DNS
 permalink: /writeups/el-topo-dns/
-excerpt: "Writeup DFIR de la maquina «El Topo DNS» (TheHackersLabs, categoria Seguridad Defensiva / Linux), objetivo 192.168.143.140."
+excerpt: Writeup DFIR de la maquina «El Topo DNS» (TheHackersLabs, categoria Seguridad Defensiva / Linux), objetivo 192.168.143.140.
 date: 2026-09-11
 categories:
-  - TheHackersLabs
-  - DFIR
+- TheHackersLabs
+- DFIR
 tags:
-  - TheHackersLabs
-  - DFIR
+- TheHackersLabs
+- DFIR
+layout: writeup
+techniques:
+- TheHackersLabs
+- DFIR
+platform: TheHackersLabs
+status: Completado
 ---
 
 Writeup DFIR de la maquina «El Topo DNS» (TheHackersLabs, categoria Seguridad Defensiva / Linux), objetivo 192.168.143.140.

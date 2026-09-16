@@ -1,15 +1,22 @@
 ---
-title: "Perceptron Train Classic 0"
+title: Perceptron Train Classic 0
 permalink: /writeups/perceptron-train-classic-0/
-excerpt: "Writeup del reto 'Perceptron Train Classic 0' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
+excerpt: Writeup del reto 'Perceptron Train Classic 0' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).
 date: 2026-09-11
 categories:
-  - AI Foundations I
-  - AI
+- AI Foundations I
+- AI
 tags:
-  - AI-Foundations-I
-  - Easy
-  - AI
+- AI-Foundations-I
+- Easy
+- AI
+layout: writeup
+techniques:
+- AI Foundations I
+- Easy
+- AI
+platform: Laboratorio autorizado
+status: Completado
 ---
 
 Writeup del reto "Perceptron Train Classic 0" (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).

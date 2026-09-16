@@ -1,20 +1,38 @@
 ---
-title: "Vuln-Lab (Nebula Forge) - SQLi, RCE, LFI y escalada por sudo Vim"
+title: Vuln-Lab (Nebula Forge) - SQLi, RCE, LFI y escalada por sudo Vim
 permalink: /writeups/vuln-lab-nebula/
-excerpt: "Examen final de Hacking Ético sobre el laboratorio Nebula Forge: inyección SQL con sqlmap, File Upload/RCE, Local File Inclusion, acceso SSH y escalada a root abusando de sudo Vim. Cinco banderas capturadas."
+excerpt: 'Examen final de Hacking Ético sobre el laboratorio Nebula Forge: inyección SQL con sqlmap, File Upload/RCE, Local File Inclusion, acceso SSH y escalada a root abusando de sudo Vim. Cinco banderas capturadas.'
 date: 2025-06-27
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - linux
-  - sqli
-  - sqlmap
-  - file-upload
-  - rce
-  - lfi
-  - sudo
-  - privesc
-  - hacking
+- linux
+- sqli
+- sqlmap
+- file-upload
+- rce
+- lfi
+- sudo
+- privesc
+- hacking
+layout: writeup
+techniques:
+- Linux
+- SQLi
+- RCE
+- LFI
+- SSH
+- PrivEsc
+platform: Academia
+os: Linux
+status: Completado
+difficulty: Intermedia
+initial_access: SQL Injection / File Upload
+privilege_escalation: sudo Vim
+mitre:
+- T1046 — Network Service Scanning
+- T1190 — Exploit Public-Facing Application
+- T1059 — Command and Scripting Interpreter
 ---
 
 > **Máquina:** Vuln-Lab 2025 / Nebula Forge · **Plataforma:** Hacking (Academia de Ciberseguridad) · **SO:** Linux · **Examen final Hacking Ético 1 y 2**

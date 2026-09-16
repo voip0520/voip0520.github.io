@@ -1,15 +1,23 @@
 ---
-title: "Wanna Some Cookies - Manejo de sesión (hackrocks)"
+title: Wanna Some Cookies - Manejo de sesión (hackrocks)
 permalink: /writeups/wanna-some-cookies/
-excerpt: "Hackrocks - Wanna Some CookiesDocumento técnico en formato CherryTree con la resolución estructurada del reto, centrado en análisis de cookies, manejo de sesión y obtención de acce"
+excerpt: Hackrocks - Wanna Some CookiesDocumento técnico en formato CherryTree con la resolución estructurada del reto, centrado en análisis de cookies, manejo de sesión y obtención de acce
 date: 2026-07-18
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - hackrocks
-  - web
-  - cookies
-  - sesion
+- hackrocks
+- web
+- cookies
+- sesion
+layout: writeup
+techniques:
+- hackrocks
+- web
+- cookies
+- sesion
+platform: Laboratorio autorizado
+status: Completado
 ---
 
 > **Plataforma:** hackrocks

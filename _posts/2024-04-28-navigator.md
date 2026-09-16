@@ -1,18 +1,30 @@
 ---
-title: "Navigator - Navigate CMS RCE y SUID php"
+title: Navigator - Navigate CMS RCE y SUID php
 permalink: /writeups/navigator/
-excerpt: "Enumeración de un servidor DNS/web Linux, bypass de autenticación en Navigate CMS mediante cookie, RCE, y escalada de privilegios a root abusando de un binario php con permiso SUID."
+excerpt: Enumeración de un servidor DNS/web Linux, bypass de autenticación en Navigate CMS mediante cookie, RCE, y escalada de privilegios a root abusando de un binario php con permiso SUID.
 date: 2024-04-28
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - linux
-  - navigate-cms
-  - rce
-  - dns
-  - suid
-  - metasploit
-  - hacking
+- linux
+- navigate-cms
+- rce
+- dns
+- suid
+- metasploit
+- hacking
+layout: writeup
+techniques:
+- linux
+- navigate cms
+- rce
+- dns
+- suid
+- metasploit
+- hacking
+platform: Laboratorio autorizado
+os: Linux
+status: Completado
 ---
 
 > **Máquina:** Navigator · **Plataforma:** Hacking · **SO:** Linux Debian 10 · **Dificultad:** Media

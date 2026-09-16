@@ -1,17 +1,27 @@
 ---
-title: "Steel Mountain - Rejetto HFS (CVE-2014-6287)"
+title: Steel Mountain - Rejetto HFS (CVE-2014-6287)
 permalink: /writeups/steel-mountain/
-excerpt: "Explotación de Rejetto HTTP File Server (CVE-2014-6287) en un objetivo Windows y escalada de privilegios a SYSTEM abusando de un servicio con ruta sin comillas mediante PowerUp."
+excerpt: Explotación de Rejetto HTTP File Server (CVE-2014-6287) en un objetivo Windows y escalada de privilegios a SYSTEM abusando de un servicio con ruta sin comillas mediante PowerUp.
 date: 2024-05-07
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - windows
-  - rejetto-hfs
-  - cve-2014-6287
-  - metasploit
-  - powerup
-  - tryhackme
+- windows
+- rejetto-hfs
+- cve-2014-6287
+- metasploit
+- powerup
+- tryhackme
+layout: writeup
+techniques:
+- Windows
+- Rejetto HFS
+- CVE-2014-6287
+- PrivEsc
+platform: TryHackMe
+os: Windows
+status: Completado
+initial_access: Rejetto HFS
 ---
 
 > **Máquina:** Steel Mountain · **Plataforma:** TryHackMe · **SO:** Windows · **Dificultad:** Media

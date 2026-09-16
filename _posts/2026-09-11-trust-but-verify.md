@@ -1,15 +1,22 @@
 ---
-title: "Trust But Verify"
+title: Trust But Verify
 permalink: /writeups/trust-but-verify/
-excerpt: "Writeup del reto 'Trust But Verify' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones)."
+excerpt: Writeup del reto 'Trust But Verify' (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).
 date: 2026-09-11
 categories:
-  - AI Foundations I
-  - AI
+- AI Foundations I
+- AI
 tags:
-  - AI-Foundations-I
-  - Easy
-  - AI
+- AI-Foundations-I
+- Easy
+- AI
+layout: writeup
+techniques:
+- AI Foundations I
+- Easy
+- AI
+platform: Laboratorio autorizado
+status: Completado
 ---
 
 Writeup del reto "Trust But Verify" (AI Foundations I, categoria Artificial Intelligence, dificultad Easy, por LT 'syreal' Jones).

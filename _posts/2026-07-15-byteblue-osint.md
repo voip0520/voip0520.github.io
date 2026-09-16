@@ -1,13 +1,19 @@
 ---
-title: "ByteBlueWolf - OSINT"
+title: ByteBlueWolf - OSINT
 permalink: /writeups/byteblue-osint/
-excerpt: "Procedimiento para resolver el reto OSINT de ByteBlueWolf"
+excerpt: Procedimiento para resolver el reto OSINT de ByteBlueWolf
 date: 2026-07-15
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - osint
-  - investigacion
+- osint
+- investigacion
+layout: writeup
+techniques:
+- osint
+- investigacion
+platform: CTF / Laboratorio
+status: Completado
 ---
 
 > **Plataforma:** CTF

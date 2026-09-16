@@ -1,16 +1,25 @@
 ---
-title: "Media Upload System - Pentest completo"
+title: Media Upload System - Pentest completo
 permalink: /writeups/media-upload-system/
-excerpt: "Entorno: laboratorio local aislado (VMware, red 192.168.143.0/24)"
+excerpt: 'Entorno: laboratorio local aislado (VMware, red 192.168.143.0/24)'
 date: 2026-09-08
 categories:
-  - Máquinas
+- Máquinas
 tags:
-  - linux
-  - file-upload
-  - pentesting
-  - privesc
-  - hacking
+- linux
+- file-upload
+- pentesting
+- privesc
+- hacking
+layout: writeup
+techniques:
+- Linux
+- File Upload
+- PrivEsc
+platform: Laboratorio local
+os: Linux
+status: Completado
+initial_access: File Upload
 ---
 
 > **Plataforma:** Hacking

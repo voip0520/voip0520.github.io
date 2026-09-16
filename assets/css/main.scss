@@ -827,4 +827,133 @@ blockquote {
   color: #39ff14 !important;
 
   background: rgba(57, 255, 20, .06);
+}// ============================================================
+// WRITEUPS PROFESIONALES + TARJETAS DE MÁQUINAS
+// ============================================================
+
+// ============================================================
+// WRITEUPS PROFESIONALES + TARJETAS DE MÁQUINAS
+// ============================================================
+
+.machine-intro {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: rgba(8, 10, 9, .88);
+  border: 1px solid rgba(57, 255, 20, .25);
+  border-radius: 10px;
+}
+.machine-intro h1 { margin: .55rem 0 .7rem; color: #fff !important; }
+.machine-intro p { margin: 0; color: #cfcfcf; max-width: 900px; }
+
+.machine-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2.4rem;
+}
+
+.machine-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 220px;
+  padding: 1.2rem;
+  background: rgba(12, 14, 13, .92);
+  border: 1px solid rgba(57, 255, 20, .20);
+  border-radius: 8px;
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+.machine-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(57, 255, 20, .55);
+  box-shadow: 0 10px 25px rgba(0,0,0,.35), 0 0 14px rgba(57,255,20,.07);
+}
+.machine-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-bottom: .9rem;
+}
+.machine-card-top span {
+  display: inline-block;
+  padding: .22rem .48rem;
+  border: 1px solid rgba(57,255,20,.32);
+  border-radius: 999px;
+  color: #39ff14;
+  background: rgba(57,255,20,.05);
+  font-family: monospace;
+  font-size: .66rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.machine-card h3 {
+  margin: 0 0 .65rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: #fff !important;
+  font-size: 1.25rem;
+}
+.machine-card p { margin: 0 0 1rem; color: #c9c9c9; line-height: 1.55; }
+.machine-card a { margin-top: auto; color: #39ff14 !important; font-weight: 700; }
+
+.writeup-hero {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(8,10,9,.97), rgba(4,5,4,.92));
+  border: 1px solid rgba(57,255,20,.30);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.writeup-kicker {
+  color: #39ff14;
+  font-family: monospace;
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.writeup-hero h1 {
+  margin: .65rem 0 1rem !important;
+  color: #fff !important;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.08;
+}
+.writeup-badges { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.35rem; }
+.writeup-badges span {
+  padding: .25rem .55rem;
+  color: #39ff14;
+  background: rgba(57,255,20,.055);
+  border: 1px solid rgba(57,255,20,.30);
+  border-radius: 999px;
+  font-family: monospace;
+  font-size: .72rem;
+}
+.writeup-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: .75rem;
+}
+.writeup-meta-grid > div {
+  min-width: 0;
+  padding: .85rem;
+  background: rgba(255,255,255,.025);
+  border-left: 2px solid #39ff14;
+}
+.writeup-meta-grid small { display: block; margin-bottom: .25rem; color: #8d8d8d; font-family: monospace; font-size: .66rem; letter-spacing: .08em; }
+.writeup-meta-grid strong { display: block; color: #eee; overflow-wrap: anywhere; }
+.writeup-section-label { margin: 1.4rem 0 .7rem; color: #39ff14; font-family: monospace; font-weight: 700; letter-spacing: .1em; }
+.writeup-mitre-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .65rem; }
+.writeup-mitre-grid > div { display: flex; gap: .7rem; align-items: center; padding: .65rem .75rem; background: rgba(255,255,255,.025); border: 1px solid rgba(57,255,20,.13); border-radius: 6px; }
+.writeup-mitre-grid code { color: #39ff14; white-space: nowrap; }
+.writeup-mitre-grid span { color: #d6d6d6; }
+.writeup-body h2 { margin-top: 2.2rem; }
+.writeup-body img { border-radius: 7px; border: 1px solid rgba(57,255,20,.12); }
+
+@media (max-width: 1100px) {
+  .machine-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .writeup-meta-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 700px) {
+  .machine-grid, .writeup-meta-grid, .writeup-mitre-grid { grid-template-columns: 1fr; }
+  .machine-intro, .writeup-hero { padding: 1.2rem; }
 }
