@@ -29,6 +29,11 @@ classes: wide
 {% include machine-card.html name="Mr Robot" os="Linux" platform="TryHackMe" vector="WordPress · SUID Nmap" url="/writeups/mr-robot/" %}
 </div>
 
+## EHCA / Academia
+<div class="machine-grid">
+{% include machine-card.html name="Laboratorio EHCA" os="Linux" platform="EHCA" vector="SQLi · File Upload · RCE · LFI · sudo Vim" url="/maquinas/ehca-vuln-academia/" %}
+</div>
+
 ## HackTheBox
 <div class="machine-grid">
 {% include machine-card.html name="CAP" os="Linux" platform="HackTheBox" vector="PCAP · FTP · SUID Python" url="/writeups/htb-cap/" %}
@@ -40,3 +45,4 @@ classes: wide
 {% include machine-card.html name="Dragon" os="Linux" platform="TheHackersLabs" vector="sudo · Vim" url="/writeups/dragon/" %}
 {% include machine-card.html name="El Topo DNS" os="Linux" platform="TheHackersLabs" vector="DFIR · DNS" url="/writeups/el-topo-dns/" %}
 </div>
+
