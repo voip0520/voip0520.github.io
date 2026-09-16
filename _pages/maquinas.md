@@ -20,6 +20,7 @@ classes: wide
 {% include machine-card.html name="Faro" os="Linux" platform="Laboratorio" vector="Auditoría de nodo de borde" url="/writeups/faro/" %}
 {% include machine-card.html name="Media Upload System" os="Linux" platform="Laboratorio local" vector="File Upload · PrivEsc" url="/writeups/media-upload-system/" %}
 {% include machine-card.html name="Nebula Forge" os="Linux" platform="Academia" vector="SQLi · RCE · LFI · sudo Vim" url="/writeups/vuln-lab-nebula/" %}
+{% include machine-card.html name="Laboratorio EHCA" os="Linux" platform="EHCA" vector="SQLi · File Upload · RCE · LFI · sudo Vim" url="/maquinas/ehca-vuln-academia/" %}
 </div>
 
 ## TryHackMe
@@ -27,11 +28,6 @@ classes: wide
 {% include machine-card.html name="Steel Mountain" os="Windows" platform="TryHackMe" vector="Rejetto HFS · CVE-2014-6287" url="/writeups/steel-mountain/" %}
 {% include machine-card.html name="Game Zone" os="Linux" platform="TryHackMe" vector="SQLi · Webmin" url="/writeups/game-zone/" %}
 {% include machine-card.html name="Mr Robot" os="Linux" platform="TryHackMe" vector="WordPress · SUID Nmap" url="/writeups/mr-robot/" %}
-</div>
-
-## EHCA / Academia
-<div class="machine-grid">
-{% include machine-card.html name="Laboratorio EHCA" os="Linux" platform="EHCA" vector="SQLi · File Upload · RCE · LFI · sudo Vim" url="/maquinas/ehca-vuln-academia/" %}
 </div>
 
 ## HackTheBox
