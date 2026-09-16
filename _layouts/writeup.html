@@ -1,0 +1,23 @@
+---
+layout: single
+---
+{% assign techs = page.techniques %}
+<section class="writeup-hero">
+  <div class="writeup-kicker">WRITEUP TÉCNICO · {{ page.writeup_type | default: "LABORATORIO AUTORIZADO" }}</div>
+  <h1>{{ page.title }}</h1>
+  {% if techs %}<div class="writeup-badges">{% for t in techs %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
+  <div class="writeup-meta-grid">
+    {% if page.platform %}<div><small>PLATAFORMA</small><strong>{{ page.platform }}</strong></div>{% endif %}
+    {% if page.os %}<div><small>SISTEMA</small><strong>{{ page.os }}</strong></div>{% endif %}
+    {% if page.difficulty %}<div><small>DIFICULTAD</small><strong>{{ page.difficulty }}</strong></div>{% endif %}
+    {% if page.initial_access %}<div><small>VECTOR INICIAL</small><strong>{{ page.initial_access }}</strong></div>{% endif %}
+    {% if page.privilege_escalation %}<div><small>ESCALADA</small><strong>{{ page.privilege_escalation }}</strong></div>{% endif %}
+    {% if page.status %}<div><small>ESTADO</small><strong>✓ {{ page.status }}</strong></div>{% endif %}
+  </div>
+  {% if page.mitre %}
+  <div class="writeup-mitre"><div class="writeup-section-label">MITRE ATT&amp;CK</div><div class="writeup-mitre-grid">
+    {% for item in page.mitre %}{% assign bits = item | split: " — " %}<div><code>{{ bits[0] }}</code><span>{{ bits[1] }}</span></div>{% endfor %}
+  </div></div>
+  {% endif %}
+</section>
+<div class="writeup-body">{{ content }}</div>
