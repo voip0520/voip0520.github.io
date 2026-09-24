@@ -13,6 +13,7 @@ classes: wide
 <article class="cyber-card"><span class="cyber-badge">BLUE TEAM</span><h2>Wazuh / SOC</h2><p>Instalación, troubleshooting y análisis de eventos.</p><a href="/writeups/wazuh-soc/">Abrir manual →</a></article>
 <article class="cyber-card"><span class="cyber-badge">NETWORK / VoIP</span><h2>Redes y telefonía</h2><p>VLAN, QoS, SIP y documentación de infraestructura.</p><a href="/proyectos/">Ver notas de infraestructura →</a></article>
 <article class="cyber-card"><span class="cyber-badge">FUNDAMENTOS</span><h2>¿Qué es un CVE?</h2><p>CVE, CVSS, CWE y CPE. Identificación, análisis, priorización y gestión de vulnerabilidades desde una perspectiva de Pentesting y Blue Team.</p><a href="/notas/que-es-un-cve/">Leer nota →</a></article>
+<article class="cyber-card"><span class="cyber-badge">PENTESTING</span><h2>Shells & Enumeración</h2><p>Shell, Reverse Shell, Web Shell, Bind Shell y técnicas de enumeración en sistemas Windows y Linux.</p><a href="/notas/shells-enumeracion/">Ver apuntes →</a></article>
 </div>
 
 ## Ruta de estudio eJPT
