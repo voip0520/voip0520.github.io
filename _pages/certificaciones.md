@@ -42,7 +42,7 @@ Certificación que valida los fundamentos del hacking ético: reconocimiento, an
 
 Certificación que valida administración de agentes de IA.
 
-[Ver certificado](/assets/certs/ia_amd.pdf){: .btn .btn--primary}
+[Ver certificado](/assets/certs/ia_adm.pdf){: .btn .btn--primary}
 
 ## AD-RTS
 **Entidad:** Cyberwarfare
