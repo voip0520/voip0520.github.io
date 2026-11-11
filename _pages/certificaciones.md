@@ -50,3 +50,10 @@ Certificación que valida administración de agentes de IA.
 Certificación especialista en red team AD
 
 [Ver certificado](/assets/certs/AD-RTS.pdf){: .btn .btn--primary}
+
+## CNPen
+**Entidad:** SecOps
+
+Certificación Network Pentester
+
+[Ver certificado](/assets/certs/CNPen.pdf){: .btn .btn--primary}
