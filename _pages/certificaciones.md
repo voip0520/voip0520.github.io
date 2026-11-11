@@ -54,6 +54,6 @@ Certificación especialista en red team AD
 ## CNPen
 **Entidad:** SecOps
 
-Certificación Network Pentester
+Especialista para realizar pruebas de penetración (pentesting) y detectar vulnerabilidades en redes informáticas
 
 [Ver certificado](/assets/certs/CNPen.pdf){: .btn .btn--primary}
