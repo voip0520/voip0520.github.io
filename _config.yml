@@ -25,7 +25,7 @@ search                   : true
 author:
   name        : "Oswaldo Quishpe"
   avatar      : "/assets/images/ejpt.png"
-  bio         : "eJPT · CEHPC · EHCA · CJWAPT<br>Pentesting · Redes · Linux · VoIP"
+  bio         : "eJPT · CEHPC · EHCA · CJWAPT · CNPEN <br>Pentesting · Redes · Linux · VoIP"
   location    : "Ecuador"
   links:
     - label: "LinkedIn"
