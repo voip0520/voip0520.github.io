@@ -43,3 +43,10 @@ Capacitación que enseña los fundamentos de conmutación, enrutamiento y redes 
 Capacitación que proporciona conocimientos y habilidades fundamentales para proteger infraestructuras de red frente a amenazas y ataques cibernéticos.
 
 [Ver certificado](/assets/caps/df_red.pdf){: .btn .btn--primary}
+
+## Ethical_Hacker
+**Entidad:** Cisco Networking Academy
+
+Capacitación que proporciona conocimientos teóricos y prácticos sobre técnicas de hacking ético, pruebas de penetración y evaluación de vulnerabilidades en sistemas informáticos, redes y aplicaciones web.
+
+[Ver certificado](/assets/caps/hacker_etico.pdf){: .btn .btn--primary}
