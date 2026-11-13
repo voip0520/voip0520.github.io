@@ -36,3 +36,10 @@ Capacitación enfocado en el diseño, administración y seguridad de redes empre
 Capacitación que enseña los fundamentos de conmutación, enrutamiento y redes inalámbricas
 
 [Ver certificado](/assets/caps/CCNA2v7.pdf){: .btn .btn--primary}
+
+## Network Defense
+**Entidad:** Cisco Networking Academy
+
+Capacitación que proporciona conocimientos y habilidades fundamentales para proteger infraestructuras de red frente a amenazas y ataques cibernéticos.
+
+[Ver certificado](/assets/caps/df_red.pdf){: .btn .btn--primary}
