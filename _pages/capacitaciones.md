@@ -50,3 +50,10 @@ Capacitación que proporciona conocimientos y habilidades fundamentales para pro
 Capacitación que proporciona conocimientos teóricos y prácticos sobre técnicas de hacking ético, pruebas de penetración y evaluación de vulnerabilidades en sistemas informáticos, redes y aplicaciones web.
 
 [Ver certificado](/assets/caps/hacker_etico.pdf){: .btn .btn--primary}
+
+## Introduction ciberseguridad
+**Entidad:** Cisco Networking Academy
+
+Capacitación que proporciona conocimientos fundamentales sobre la protección de sistemas informáticos, redes, dispositivos y datos frente a amenazas y ataques cibernéticos..
+
+[Ver certificado](/assets/caps/hacker_etico.pdf){: .btn .btn--primary}
