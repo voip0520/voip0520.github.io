@@ -56,4 +56,4 @@ Capacitación que proporciona conocimientos teóricos y prácticos sobre técnic
 
 Capacitación que proporciona conocimientos fundamentales sobre la protección de sistemas informáticos, redes, dispositivos y datos frente a amenazas y ataques cibernéticos..
 
-[Ver certificado](/assets/caps/hacker_etico.pdf){: .btn .btn--primary}
+[Ver certificado](/assets/caps/ciberseguridad.pdf){: .btn .btn--primary}
